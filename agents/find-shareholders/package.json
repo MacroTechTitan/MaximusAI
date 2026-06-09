@@ -1,0 +1,18 @@
+{
+  "name": "find-shareholders-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Find institutional shareholders (funds) and named individuals at those funds for any company. CSV export shaped for Folk and Apollo enrichment.",
+  "scripts": {
+    "install:all": "npm install && npm --prefix client install && npm --prefix server install",
+    "dev": "concurrently -k -n CLIENT,SERVER -c blue,magenta \"npm --prefix client run dev\" \"npm --prefix server run dev\"",
+    "build": "npm --prefix client run build",
+    "start": "node server/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

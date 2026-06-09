@@ -7,6 +7,7 @@ Collection of AI agents and tools built by [Macro Tech Titan](https://github.com
 | Agent | Description | Stack |
 |---|---|---|
 | [`agents/recruiter-deep-find`](./agents/recruiter-deep-find) | Recruiter intake form + live deep-search powered by Perplexity Sonar. Sources candidates from DevOps agencies, dev shops, outsourcing firms, MSPs, and technical staffing agencies. | React + Vite, Express, Perplexity Sonar API |
+| [`agents/find-shareholders`](./agents/find-shareholders) | Input one or more company names (public or private), get institutional shareholders (funds) and named individuals at those funds. Exports CSVs shaped for Folk and Apollo enrichment. | React + Vite, Express, Perplexity Sonar API |
 
 ## Layout
 
