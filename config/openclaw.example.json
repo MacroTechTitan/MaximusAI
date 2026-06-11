@@ -1,0 +1,35 @@
+{
+  // Example OpenClaw config for running Maximus.
+  // Copy to ~/.openclaw/openclaw.json (or merge into your existing one) and edit.
+  // JSON5: comments and trailing commas are allowed.
+
+  "agent": {
+    // ── Pick ONE model path ───────────────────────────────────────────────
+
+    // PATH A — Local model, zero keys, free-free (recommended for "no API").
+    // Requires a local runtime (e.g. Ollama) with the model pulled.
+    "model": "ollama/llama3.1",
+
+    // PATH B — Bring your own model (frontier quality, your API cost).
+    // Comment out Path A above and uncomment one of these, then provide the
+    // matching API key via the host's secret store / env (never inline here).
+    // "model": "anthropic/claude-sonnet-4-6",
+    // "model": "openai/gpt-5"
+  },
+
+  "skills": {
+    "load": {
+      // Watch skill folders so edits hot-reload on the next turn.
+      "watch": true
+    }
+  },
+
+  // Workspace files (SOUL.md, AGENTS.md, TOOLS.md) and skills/ are picked up
+  // from the workspace root that install.sh links into ~/.openclaw/workspace.
+
+  "_notes": [
+    "Maximus's layer is free. The model is yours — local (free, your hardware) or API (your cost).",
+    "For a personal single-user assistant, keep DM access paired/local. Do not expose the gateway publicly without reading OpenClaw's security + exposure runbook.",
+    "Memory starts as flat files in memory/. Switch to memory-lancedb or memory-wiki only when the store outgrows context."
+  ]
+}

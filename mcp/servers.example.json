@@ -1,0 +1,31 @@
+{
+  "_comment": "Example MCP servers for Maximus. Copy the entries you want into your openclaw.json under the appropriate MCP config key, or wire them via 'openclaw' MCP setup. Only connect servers you actually use. Replace placeholder URLs/tokens with your own; never commit real credentials.",
+
+  "mcpServers": {
+    "github": {
+      "_comment": "Repos, issues, PRs, code. Most useful general-purpose MCP.",
+      "type": "url",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "auth": "use your own GitHub token via the host's secret store, not inline"
+    },
+
+    "postgres": {
+      "_comment": "Query your database. Prefer a read-only role unless you need writes.",
+      "type": "url",
+      "url": "REPLACE_WITH_YOUR_POSTGRES_MCP_URL",
+      "note": "Point at a read-only connection string for safety."
+    },
+
+    "filesystem": {
+      "_comment": "Scoped local file access beyond the workspace, if needed.",
+      "type": "local",
+      "note": "Scope to specific directories — don't grant whole-disk access."
+    }
+  },
+
+  "_security": [
+    "Treat any MCP that can write or spend as high-trust — confirm before destructive actions.",
+    "Keep tokens in the host secret store, never inline in this file or in memory.",
+    "Only enable servers you actually use; each one widens the attack surface."
+  ]
+}
