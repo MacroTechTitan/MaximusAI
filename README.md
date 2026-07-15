@@ -104,6 +104,10 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **AI SEO pack (7, opt-in)** — see [`packs/ai-seo/`](./packs/ai-seo)
 - [`maximus-ai-seo-strategy`](./packs/ai-seo/maximus-ai-seo-strategy) · [`maximus-aeo-optimization`](./packs/ai-seo/maximus-aeo-optimization) · [`maximus-geo-optimization`](./packs/ai-seo/maximus-geo-optimization) · [`maximus-technical-seo`](./packs/ai-seo/maximus-technical-seo) · [`maximus-content-seo`](./packs/ai-seo/maximus-content-seo) · [`maximus-seo-audit`](./packs/ai-seo/maximus-seo-audit) · [`maximus-llm-visibility-tracking`](./packs/ai-seo/maximus-llm-visibility-tracking)
 
+### Homepage sync
+
+The live site at [maximusai.macrotechtitan.com](https://maximusai.macrotechtitan.com) is maintained via Lovable. When the skill catalog changes, edit [`docs/lovable-homepage-prompt.md`](./docs/lovable-homepage-prompt.md) first, then paste its **Copy-paste prompt for Lovable** block into Lovable to regenerate the homepage. This keeps the site, README, and skill library in sync.
+
 ### Quickstart
 
 Talk to Maximus in minutes. Requires
