@@ -122,12 +122,24 @@ Route: /blog
 Layout: List of posts with title, date, one-line excerpt. Match the existing
 site's visual language. No new design directions.
 
-Seed with the first post:
+Seed with two posts, newest first:
+
+1. Latest
+- Title: "Maximus grows to 37 — adding Contact Intelligence"
+- Date: 2026-07-23
+- Excerpt: "A new skill for finding professional business emails from a
+  LinkedIn URL — with pattern discovery, verification, and honest confidence
+  scoring. Never labels a guess as verified."
+- Link: /blog/contact-intelligence
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-23-contact-intelligence.md
+
+2. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
 - Excerpt: "36 skills. 5 pillars. One workhorse. The full suite for engineers,
   founders, and scientists building with AI — from cognitive OS to AI SEO."
 - Link: /blog/maximus-suite-launch
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-20-maximus-suite-launch.md
 
 ## Post page
 
@@ -157,9 +169,9 @@ the nav and footer.
 
 ## SEO metadata to keep in sync
 
-- Homepage title tag: "MaximusAI — 36 skills for AI-native engineers"
-- Meta description: "A suite of 36 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
-- Open Graph title: "MaximusAI — 36 skills for AI-native engineers"
+- Homepage title tag: "MaximusAI — 37 skills for AI-native engineers"
+- Meta description: "A suite of 37 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
+- Open Graph title: "MaximusAI — 37 skills for AI-native engineers"
 - Open Graph description: same as meta description.
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: `SoftwareApplication` with `applicationCategory: DeveloperApplication`.
