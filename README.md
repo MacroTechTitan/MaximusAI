@@ -94,15 +94,26 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **AI engineering (12)**
 - [`maximus-agent-design`](./skills/maximus-agent-design) · [`maximus-prompt-engineering`](./skills/maximus-prompt-engineering) · [`maximus-rag-pipeline`](./skills/maximus-rag-pipeline) · [`maximus-llm-model-selection`](./skills/maximus-llm-model-selection) · [`maximus-ai-product-spec`](./skills/maximus-ai-product-spec) · [`maximus-ai-safety-governance`](./skills/maximus-ai-safety-governance) · [`maximus-ai-data-pipeline`](./skills/maximus-ai-data-pipeline) · [`maximus-fine-tuning`](./skills/maximus-fine-tuning) · [`maximus-ai-fluency-for-builders`](./skills/maximus-ai-fluency-for-builders) · [`maximus-ai-cost-control`](./skills/maximus-ai-cost-control) · [`maximus-mlops-deploy`](./skills/maximus-mlops-deploy) · [`maximus-ai-ux-patterns`](./skills/maximus-ai-ux-patterns)
 
-**Writing, research, and people-finding (5)**
+**Writing, research, and people-finding (6)**
 - [`maximus-write-article`](./skills/maximus-write-article) — long-form articles: thought leadership + technical/build-in-public.
 - [`maximus-deep-research`](./skills/maximus-deep-research) — multi-source synthesis + competitive intelligence.
 - [`maximus-deep-research-pro`](./skills/maximus-deep-research-pro) — **inference-driven** research: hypothesis-first, adversarial verification, cross-source inference, confidence ledger.
 - [`maximus-people-finder`](./skills/maximus-people-finder) — deep 7-step agent for investors, journalists, partners, board members, subject-matter experts.
 - [`maximus-people-finder-recruiter`](./skills/maximus-people-finder-recruiter) — deep 8-step recruiter agent (candidate sourcing across any employer type).
+- [`maximus-counterparty-discovery`](./skills/maximus-counterparty-discovery) — finance-grade counterparty discovery with regulator filings, court dockets, source-by-source provenance, and a compliance gate before outreach.
 
 **AI SEO pack (7, opt-in)** — see [`packs/ai-seo/`](./packs/ai-seo)
 - [`maximus-ai-seo-strategy`](./packs/ai-seo/maximus-ai-seo-strategy) · [`maximus-aeo-optimization`](./packs/ai-seo/maximus-aeo-optimization) · [`maximus-geo-optimization`](./packs/ai-seo/maximus-geo-optimization) · [`maximus-technical-seo`](./packs/ai-seo/maximus-technical-seo) · [`maximus-content-seo`](./packs/ai-seo/maximus-content-seo) · [`maximus-seo-audit`](./packs/ai-seo/maximus-seo-audit) · [`maximus-llm-visibility-tracking`](./packs/ai-seo/maximus-llm-visibility-tracking)
+
+**Total: 36 skills.**
+
+### Homepage sync
+
+The live site at [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) is managed by Lovable. When the skill catalog changes, edit [`docs/lovable-homepage-prompt.md`](./docs/lovable-homepage-prompt.md) first, then paste its **Copy-paste prompt for Lovable** block into Lovable to regenerate the homepage. This keeps the site, README, and skill library in sync.
+
+### Launch blog post
+
+Read [Introducing the Maximus Suite — 36 skills for AI-native engineers](./blog/2026-07-20-maximus-suite-launch.md).
 
 ### Quickstart
 
