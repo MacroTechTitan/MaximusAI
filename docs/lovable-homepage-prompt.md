@@ -4,15 +4,15 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 36 Maximus skills across 5 pillars (29 in `skills/`, 7 in `packs/ai-seo/`)
-**Last updated:** 2026-07-20
+**Total skills:** 39 Maximus skills across 5 pillars (32 in `skills/`, 7 in `packs/ai-seo/`)
+**Last updated:** 2026-07-29
 
 ---
 
 ## Copy-paste prompt for Lovable (homepage skills section)
 
 ```
-Update the MaximusAI homepage to feature the full 36-skill Maximus suite,
+Update the MaximusAI homepage to feature the full 39-skill Maximus suite,
 grouped into 5 pillars. Match the existing visual language of the site — do
 not redesign — but add or replace the "Skills" section between the hero and
 the footer.
@@ -48,9 +48,9 @@ Card grid, 10 cards, each with skill name and one-line description:
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
-## Pillar 3: AI Engineering (12 skills)
+## Pillar 3: AI Engineering (14 skills)
 
-Card grid, 12 cards:
+Card grid, 14 cards:
 - maximus-agent-design — Tool loops, memory, recovery, 3-tier evals.
 - maximus-prompt-engineering — Production system prompts, JSON schemas, few-shot.
 - maximus-rag-pipeline — Chunking, embeddings, hybrid search, reranking, citation grounding.
@@ -63,22 +63,25 @@ Card grid, 12 cards:
 - maximus-ai-cost-control — Token economics, prompt caching, $/request budgets.
 - maximus-mlops-deploy — Model registry, canary, drift, rollback.
 - maximus-ai-ux-patterns — Streaming, citations, confidence, guardrails.
+- maximus-k3-model-selection — Decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2. Benchmark-cited, honest, refuses to recommend K3 when fit is worse. NEW.
+- maximus-k3-self-hosting — Plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate. NEW.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
-## Pillar 4: Writing, Research & People-Finding (6 skills)
+Highlight the "NEW" tag on maximus-k3-model-selection and maximus-k3-self-hosting.
 
-Card grid, 6 cards:
+## Pillar 4: Writing, Research & People-Finding (7 skills)
+
+Card grid, 7 cards:
 - maximus-write-article — Long-form articles: thought leadership + technical builds.
 - maximus-deep-research — Multi-source synthesis and competitive intelligence.
 - maximus-deep-research-pro — Inference-driven research: hypothesis-first, adversarial verification, confidence ledger.
 - maximus-people-finder — Deep 7-step agent for investors, journalists, partners, board members, experts.
 - maximus-people-finder-recruiter — Deep 8-step recruiter agent for candidate sourcing.
-- maximus-counterparty-discovery — Finance-grade counterparty discovery: SEC filings, court dockets, source-by-source provenance, compliance gate before outreach. NEW.
+- maximus-counterparty-discovery — Finance-grade counterparty discovery: SEC filings, court dockets, source-by-source provenance, compliance gate before outreach.
+- maximus-contact-intelligence — Find the most likely professional business email from a LinkedIn URL, with pattern discovery, verification, and confidence scoring. Never labels a guess as verified.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
-
-Highlight the "NEW" tag on maximus-counterparty-discovery.
 
 ## Pillar 5: AI SEO Pack (7 skills, opt-in)
 
@@ -122,9 +125,18 @@ Route: /blog
 Layout: List of posts with title, date, one-line excerpt. Match the existing
 site's visual language. No new design directions.
 
-Seed with two posts, newest first:
+Seed with three posts, newest first:
 
 1. Latest
+- Title: "Two Kimi K3 skills join Maximus"
+- Date: 2026-07-29
+- Excerpt: "maximus-k3-model-selection and maximus-k3-self-hosting — pick the
+  right frontier model when K3 is on the shortlist, and run K3 on your own
+  GPUs (or honestly decide not to). Suite now at 39 skills."
+- Link: /blog/kimi-k3-skills
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-29-kimi-k3-skills.md
+
+2. Previous
 - Title: "Maximus grows to 37 — adding Contact Intelligence"
 - Date: 2026-07-23
 - Excerpt: "A new skill for finding professional business emails from a
@@ -133,7 +145,7 @@ Seed with two posts, newest first:
 - Link: /blog/contact-intelligence
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-23-contact-intelligence.md
 
-2. Launch post
+3. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
 - Excerpt: "36 skills. 5 pillars. One workhorse. The full suite for engineers,
@@ -169,9 +181,9 @@ the nav and footer.
 
 ## SEO metadata to keep in sync
 
-- Homepage title tag: "MaximusAI — 37 skills for AI-native engineers"
-- Meta description: "A suite of 37 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
-- Open Graph title: "MaximusAI — 37 skills for AI-native engineers"
+- Homepage title tag: "MaximusAI — 39 skills for AI-native engineers"
+- Meta description: "A suite of 39 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
+- Open Graph title: "MaximusAI — 39 skills for AI-native engineers"
 - Open Graph description: same as meta description.
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: `SoftwareApplication` with `applicationCategory: DeveloperApplication`.
