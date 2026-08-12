@@ -148,7 +148,7 @@ Seed with four posts, newest first:
 - Link: /blog/kimi-k3-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-29-kimi-k3-skills.md
 
-3. Previous
+3. Older
 - Title: "Maximus grows to 37 — adding Contact Intelligence"
 - Date: 2026-07-23
 - Excerpt: "A new skill for finding professional business emails from a
@@ -157,7 +157,7 @@ Seed with four posts, newest first:
 - Link: /blog/contact-intelligence
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-23-contact-intelligence.md
 
-3. Launch post
+4. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
 - Excerpt: "42 skills. 5 pillars. One workhorse. The full suite for engineers,
