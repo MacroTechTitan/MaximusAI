@@ -91,13 +91,15 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **Build & ship (10)**
 - [`maximus-design-spec`](./skills/maximus-design-spec) · [`maximus-plan-implementation`](./skills/maximus-plan-implementation) · [`maximus-build-feature`](./skills/maximus-build-feature) · [`maximus-code-review`](./skills/maximus-code-review) · [`maximus-debug-incident`](./skills/maximus-debug-incident) · [`maximus-eval-and-test`](./skills/maximus-eval-and-test) · [`maximus-devops-ship`](./skills/maximus-devops-ship) · [`maximus-fintech-payments`](./skills/maximus-fintech-payments) · [`maximus-python-scientific`](./skills/maximus-python-scientific) · [`maximus-replit-handoff-pro`](./skills/maximus-replit-handoff-pro)
 
-**AI engineering (14)**
-- [`maximus-agent-design`](./skills/maximus-agent-design) · [`maximus-prompt-engineering`](./skills/maximus-prompt-engineering) · [`maximus-rag-pipeline`](./skills/maximus-rag-pipeline) · [`maximus-llm-model-selection`](./skills/maximus-llm-model-selection) · [`maximus-ai-product-spec`](./skills/maximus-ai-product-spec) · [`maximus-ai-safety-governance`](./skills/maximus-ai-safety-governance) · [`maximus-ai-data-pipeline`](./skills/maximus-ai-data-pipeline) · [`maximus-fine-tuning`](./skills/maximus-fine-tuning) · [`maximus-ai-fluency-for-builders`](./skills/maximus-ai-fluency-for-builders) · [`maximus-ai-cost-control`](./skills/maximus-ai-cost-control) · [`maximus-mlops-deploy`](./skills/maximus-mlops-deploy) · [`maximus-ai-ux-patterns`](./skills/maximus-ai-ux-patterns) · [`maximus-k3-model-selection`](./skills/maximus-k3-model-selection) — decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2, benchmark-cited and honest. · [`maximus-k3-self-hosting`](./skills/maximus-k3-self-hosting) — plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate.
+**AI engineering (15)**
+- [`maximus-agent-design`](./skills/maximus-agent-design) · [`maximus-prompt-engineering`](./skills/maximus-prompt-engineering) · [`maximus-rag-pipeline`](./skills/maximus-rag-pipeline) · [`maximus-llm-model-selection`](./skills/maximus-llm-model-selection) · [`maximus-ai-product-spec`](./skills/maximus-ai-product-spec) · [`maximus-ai-safety-governance`](./skills/maximus-ai-safety-governance) · [`maximus-ai-data-pipeline`](./skills/maximus-ai-data-pipeline) · [`maximus-fine-tuning`](./skills/maximus-fine-tuning) · [`maximus-ai-fluency-for-builders`](./skills/maximus-ai-fluency-for-builders) · [`maximus-ai-cost-control`](./skills/maximus-ai-cost-control) · [`maximus-mlops-deploy`](./skills/maximus-mlops-deploy) · [`maximus-ai-ux-patterns`](./skills/maximus-ai-ux-patterns) · [`maximus-k3-model-selection`](./skills/maximus-k3-model-selection) — decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2, benchmark-cited and honest. · [`maximus-k3-self-hosting`](./skills/maximus-k3-self-hosting) — plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate. · [`maximus-chain-of-verification`](./skills/maximus-chain-of-verification) — apply factored CoVe as the final layer before delivery: draft → independent verification questions → fresh-context answers → revise, with a claim-by-claim confidence ledger. 40–60% documented hallucination reduction.
 
-**Writing, research, and people-finding (7)**
+**Writing, research, and people-finding (9)**
 - [`maximus-write-article`](./skills/maximus-write-article) — long-form articles: thought leadership + technical/build-in-public.
 - [`maximus-deep-research`](./skills/maximus-deep-research) — multi-source synthesis + competitive intelligence.
 - [`maximus-deep-research-pro`](./skills/maximus-deep-research-pro) — **inference-driven** research: hypothesis-first, adversarial verification, cross-source inference, confidence ledger.
+- [`maximus-investigative-research`](./skills/maximus-investigative-research) — research the way a working journalist or intelligence analyst does it: leads, source tiers (primary/secondary/adversarial), timeline construction, contradiction hunt, corroboration pass. Produces a story with a spine, not a topic summary.
+- [`maximus-literature-review`](./skills/maximus-literature-review) — systematic literature review with PRISMA-style flow, inclusion/exclusion criteria, quality appraisal (RoB 2 / NOS / ROBINS-I / field-adapted), and GRADE confidence per finding. The academic-synthesis workhorse.
 - [`maximus-people-finder`](./skills/maximus-people-finder) — deep 7-step agent for investors, journalists, partners, board members, subject-matter experts.
 - [`maximus-people-finder-recruiter`](./skills/maximus-people-finder-recruiter) — deep 8-step recruiter agent (candidate sourcing across any employer type).
 - [`maximus-counterparty-discovery`](./skills/maximus-counterparty-discovery) — finance-grade counterparty discovery with regulator filings, court dockets, source-by-source provenance, and a compliance gate before outreach.
@@ -106,7 +108,7 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **AI SEO pack (7, opt-in)** — see [`packs/ai-seo/`](./packs/ai-seo)
 - [`maximus-ai-seo-strategy`](./packs/ai-seo/maximus-ai-seo-strategy) · [`maximus-aeo-optimization`](./packs/ai-seo/maximus-aeo-optimization) · [`maximus-geo-optimization`](./packs/ai-seo/maximus-geo-optimization) · [`maximus-technical-seo`](./packs/ai-seo/maximus-technical-seo) · [`maximus-content-seo`](./packs/ai-seo/maximus-content-seo) · [`maximus-seo-audit`](./packs/ai-seo/maximus-seo-audit) · [`maximus-llm-visibility-tracking`](./packs/ai-seo/maximus-llm-visibility-tracking)
 
-**Total: 39 skills.**
+**Total: 42 skills.**
 
 ### Homepage sync
 
@@ -114,6 +116,7 @@ The live site at [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com
 
 ### Blog
 
+- [Three skills that make Maximus research like a person](./blog/2026-08-12-reasoning-and-research-skills.md) (2026-08-12)
 - [Two Kimi K3 skills join Maximus](./blog/2026-07-29-kimi-k3-skills.md) (2026-07-29)
 - [Maximus grows to 37 — adding Contact Intelligence](./blog/2026-07-23-contact-intelligence.md) (2026-07-23)
 - [Introducing the Maximus Suite — 36 skills for AI-native engineers](./blog/2026-07-20-maximus-suite-launch.md) (2026-07-20)

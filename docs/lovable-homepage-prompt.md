@@ -48,9 +48,9 @@ Card grid, 10 cards, each with skill name and one-line description:
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
-## Pillar 3: AI Engineering (14 skills)
+## Pillar 3: AI Engineering (15 skills)
 
-Card grid, 14 cards:
+Card grid, 15 cards:
 - maximus-agent-design — Tool loops, memory, recovery, 3-tier evals.
 - maximus-prompt-engineering — Production system prompts, JSON schemas, few-shot.
 - maximus-rag-pipeline — Chunking, embeddings, hybrid search, reranking, citation grounding.
@@ -64,22 +64,27 @@ Card grid, 14 cards:
 - maximus-mlops-deploy — Model registry, canary, drift, rollback.
 - maximus-ai-ux-patterns — Streaming, citations, confidence, guardrails.
 - maximus-k3-model-selection — Decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2. Benchmark-cited, honest, refuses to recommend K3 when fit is worse. NEW.
-- maximus-k3-self-hosting — Plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate. NEW.
+- maximus-k3-self-hosting — Plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate.
+- maximus-chain-of-verification — Apply factored CoVe as the final layer before delivery: draft → independent verification questions → fresh-context answers → revise. 40–60% documented hallucination reduction. Never labels a claim verified without independent-context confirmation. NEW.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
-Highlight the "NEW" tag on maximus-k3-model-selection and maximus-k3-self-hosting.
+Highlight the "NEW" tag on maximus-chain-of-verification.
 
-## Pillar 4: Writing, Research & People-Finding (7 skills)
+## Pillar 4: Writing, Research & People-Finding (9 skills)
 
-Card grid, 7 cards:
+Card grid, 9 cards:
 - maximus-write-article — Long-form articles: thought leadership + technical builds.
 - maximus-deep-research — Multi-source synthesis and competitive intelligence.
 - maximus-deep-research-pro — Inference-driven research: hypothesis-first, adversarial verification, confidence ledger.
+- maximus-investigative-research — Research the way a working journalist or intelligence analyst does it: source tiers (primary/secondary/adversarial), timeline construction, contradiction hunt, corroboration pass. Produces a story with a spine, not a topic summary. NEW.
+- maximus-literature-review — Systematic literature review with PRISMA-style flow, inclusion/exclusion criteria, quality appraisal (RoB 2 / NOS / ROBINS-I / field-adapted), and GRADE confidence per finding. NEW.
 - maximus-people-finder — Deep 7-step agent for investors, journalists, partners, board members, experts.
 - maximus-people-finder-recruiter — Deep 8-step recruiter agent for candidate sourcing.
 - maximus-counterparty-discovery — Finance-grade counterparty discovery: SEC filings, court dockets, source-by-source provenance, compliance gate before outreach.
 - maximus-contact-intelligence — Find the most likely professional business email from a LinkedIn URL, with pattern discovery, verification, and confidence scoring. Never labels a guess as verified.
+
+Highlight the "NEW" tag on maximus-investigative-research and maximus-literature-review.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
@@ -125,18 +130,25 @@ Route: /blog
 Layout: List of posts with title, date, one-line excerpt. Match the existing
 site's visual language. No new design directions.
 
-Seed with three posts, newest first:
+Seed with four posts, newest first:
 
 1. Latest
+- Title: "Three skills that make Maximus research like a person"
+- Date: 2026-08-12
+- Excerpt: "maximus-chain-of-verification, maximus-investigative-research, and maximus-literature-review — the reasoning-quality layer, the reporter's discipline, and the researcher's PRISMA workflow. Suite now at 42 skills."
+- Link: /blog/reasoning-and-research-skills
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-12-reasoning-and-research-skills.md
+
+2. Previous
 - Title: "Two Kimi K3 skills join Maximus"
 - Date: 2026-07-29
 - Excerpt: "maximus-k3-model-selection and maximus-k3-self-hosting — pick the
   right frontier model when K3 is on the shortlist, and run K3 on your own
-  GPUs (or honestly decide not to). Suite now at 39 skills."
+  GPUs (or honestly decide not to)."
 - Link: /blog/kimi-k3-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-29-kimi-k3-skills.md
 
-2. Previous
+3. Previous
 - Title: "Maximus grows to 37 — adding Contact Intelligence"
 - Date: 2026-07-23
 - Excerpt: "A new skill for finding professional business emails from a
@@ -181,9 +193,9 @@ the nav and footer.
 
 ## SEO metadata to keep in sync
 
-- Homepage title tag: "MaximusAI — 39 skills for AI-native engineers"
-- Meta description: "A suite of 39 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
-- Open Graph title: "MaximusAI — 39 skills for AI-native engineers"
+- Homepage title tag: "MaximusAI — 42 skills for AI-native engineers"
+- Meta description: "A suite of 42 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
+- Open Graph title: "MaximusAI — 42 skills for AI-native engineers"
 - Open Graph description: same as meta description.
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: `SoftwareApplication` with `applicationCategory: DeveloperApplication`.
