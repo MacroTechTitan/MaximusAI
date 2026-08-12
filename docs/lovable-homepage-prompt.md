@@ -4,22 +4,22 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 39 Maximus skills across 5 pillars (32 in `skills/`, 7 in `packs/ai-seo/`)
-**Last updated:** 2026-07-29
+**Total skills:** 42 Maximus skills across 5 pillars (35 in `skills/`, 7 in `packs/ai-seo/`)
+**Last updated:** 2026-08-12
 
 ---
 
 ## Copy-paste prompt for Lovable (homepage skills section)
 
 ```
-Update the MaximusAI homepage to feature the full 39-skill Maximus suite,
+Update the MaximusAI homepage to feature the full 42-skill Maximus suite,
 grouped into 5 pillars. Match the existing visual language of the site — do
 not redesign — but add or replace the "Skills" section between the hero and
 the footer.
 
 ## Section: "The Maximus Suite"
 
-Add a headline: "36 skills. 5 pillars. One workhorse."
+Add a headline: "42 skills. 5 pillars. One workhorse."
 Add a subhead: "Each skill is a self-contained instruction set an AI agent
 loads on demand. No dead weight, no hand-waving. Built for engineers,
 founders, and scientists."
@@ -160,7 +160,7 @@ Seed with four posts, newest first:
 3. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
-- Excerpt: "36 skills. 5 pillars. One workhorse. The full suite for engineers,
+- Excerpt: "42 skills. 5 pillars. One workhorse. The full suite for engineers,
   founders, and scientists building with AI — from cognitive OS to AI SEO."
 - Link: /blog/maximus-suite-launch
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-20-maximus-suite-launch.md
