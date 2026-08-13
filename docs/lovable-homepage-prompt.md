@@ -4,22 +4,22 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 42 Maximus skills across 5 pillars (35 in `skills/`, 7 in `packs/ai-seo/`)
-**Last updated:** 2026-08-12
+**Total skills:** 43 Maximus skills across 5 pillars (36 in `skills/`, 7 in `packs/ai-seo/`)
+**Last updated:** 2026-08-13
 
 ---
 
 ## Copy-paste prompt for Lovable (homepage skills section)
 
 ```
-Update the MaximusAI homepage to feature the full 42-skill Maximus suite,
+Update the MaximusAI homepage to feature the full 43-skill Maximus suite,
 grouped into 5 pillars. Match the existing visual language of the site — do
 not redesign — but add or replace the "Skills" section between the hero and
 the footer.
 
 ## Section: "The Maximus Suite"
 
-Add a headline: "42 skills. 5 pillars. One workhorse."
+Add a headline: "43 skills. 5 pillars. One workhorse."
 Add a subhead: "Each skill is a self-contained instruction set an AI agent
 loads on demand. No dead weight, no hand-waving. Built for engineers,
 founders, and scientists."
@@ -71,9 +71,9 @@ Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills
 
 Highlight the "NEW" tag on maximus-chain-of-verification.
 
-## Pillar 4: Writing, Research & People-Finding (9 skills)
+## Pillar 4: Writing, Research & People-Finding (10 skills)
 
-Card grid, 9 cards:
+Card grid, 10 cards:
 - maximus-write-article — Long-form articles: thought leadership + technical builds.
 - maximus-deep-research — Multi-source synthesis and competitive intelligence.
 - maximus-deep-research-pro — Inference-driven research: hypothesis-first, adversarial verification, confidence ledger.
@@ -83,8 +83,9 @@ Card grid, 9 cards:
 - maximus-people-finder-recruiter — Deep 8-step recruiter agent for candidate sourcing.
 - maximus-counterparty-discovery — Finance-grade counterparty discovery: SEC filings, court dockets, source-by-source provenance, compliance gate before outreach.
 - maximus-contact-intelligence — Find the most likely professional business email from a LinkedIn URL, with pattern discovery, verification, and confidence scoring. Never labels a guess as verified.
+- maximus-transaction-analyst — Turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations. Never fills factual gaps with outside knowledge. NEW.
 
-Highlight the "NEW" tag on maximus-investigative-research and maximus-literature-review.
+Highlight the "NEW" tag on maximus-transaction-analyst. (The previous NEW tags on maximus-investigative-research and maximus-literature-review can be removed; those are now shipped.)
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
@@ -130,16 +131,23 @@ Route: /blog
 Layout: List of posts with title, date, one-line excerpt. Match the existing
 site's visual language. No new design directions.
 
-Seed with four posts, newest first:
+Seed with five posts, newest first:
 
 1. Latest
+- Title: "Maximus grows to 43 — adding the Transaction Analyst"
+- Date: 2026-08-13
+- Excerpt: "maximus-transaction-analyst — turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations, and names what's still unresolved. Suite now at 43 skills."
+- Link: /blog/transaction-analyst
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-13-transaction-analyst.md
+
+2. Previous
 - Title: "Three skills that make Maximus research like a person"
 - Date: 2026-08-12
 - Excerpt: "maximus-chain-of-verification, maximus-investigative-research, and maximus-literature-review — the reasoning-quality layer, the reporter's discipline, and the researcher's PRISMA workflow. Suite now at 42 skills."
 - Link: /blog/reasoning-and-research-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-12-reasoning-and-research-skills.md
 
-2. Previous
+3. Previous
 - Title: "Two Kimi K3 skills join Maximus"
 - Date: 2026-07-29
 - Excerpt: "maximus-k3-model-selection and maximus-k3-self-hosting — pick the
@@ -148,7 +156,7 @@ Seed with four posts, newest first:
 - Link: /blog/kimi-k3-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-29-kimi-k3-skills.md
 
-3. Older
+4. Older
 - Title: "Maximus grows to 37 — adding Contact Intelligence"
 - Date: 2026-07-23
 - Excerpt: "A new skill for finding professional business emails from a
@@ -157,10 +165,10 @@ Seed with four posts, newest first:
 - Link: /blog/contact-intelligence
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-23-contact-intelligence.md
 
-4. Launch post
+5. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
-- Excerpt: "42 skills. 5 pillars. One workhorse. The full suite for engineers,
+- Excerpt: "43 skills. 5 pillars. One workhorse. The full suite for engineers,
   founders, and scientists building with AI — from cognitive OS to AI SEO."
 - Link: /blog/maximus-suite-launch
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-20-maximus-suite-launch.md
@@ -193,9 +201,9 @@ the nav and footer.
 
 ## SEO metadata to keep in sync
 
-- Homepage title tag: "MaximusAI — 42 skills for AI-native engineers"
-- Meta description: "A suite of 42 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
-- Open Graph title: "MaximusAI — 42 skills for AI-native engineers"
+- Homepage title tag: "MaximusAI — 43 skills for AI-native engineers"
+- Meta description: "A suite of 43 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
+- Open Graph title: "MaximusAI — 43 skills for AI-native engineers"
 - Open Graph description: same as meta description.
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: `SoftwareApplication` with `applicationCategory: DeveloperApplication`.
