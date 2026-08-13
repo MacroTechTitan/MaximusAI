@@ -94,7 +94,7 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **AI engineering (15)**
 - [`maximus-agent-design`](./skills/maximus-agent-design) · [`maximus-prompt-engineering`](./skills/maximus-prompt-engineering) · [`maximus-rag-pipeline`](./skills/maximus-rag-pipeline) · [`maximus-llm-model-selection`](./skills/maximus-llm-model-selection) · [`maximus-ai-product-spec`](./skills/maximus-ai-product-spec) · [`maximus-ai-safety-governance`](./skills/maximus-ai-safety-governance) · [`maximus-ai-data-pipeline`](./skills/maximus-ai-data-pipeline) · [`maximus-fine-tuning`](./skills/maximus-fine-tuning) · [`maximus-ai-fluency-for-builders`](./skills/maximus-ai-fluency-for-builders) · [`maximus-ai-cost-control`](./skills/maximus-ai-cost-control) · [`maximus-mlops-deploy`](./skills/maximus-mlops-deploy) · [`maximus-ai-ux-patterns`](./skills/maximus-ai-ux-patterns) · [`maximus-k3-model-selection`](./skills/maximus-k3-model-selection) — decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2, benchmark-cited and honest. · [`maximus-k3-self-hosting`](./skills/maximus-k3-self-hosting) — plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate. · [`maximus-chain-of-verification`](./skills/maximus-chain-of-verification) — apply factored CoVe as the final layer before delivery: draft → independent verification questions → fresh-context answers → revise, with a claim-by-claim confidence ledger. 40–60% documented hallucination reduction.
 
-**Writing, research, and people-finding (9)**
+**Writing, research, and people-finding (10)**
 - [`maximus-write-article`](./skills/maximus-write-article) — long-form articles: thought leadership + technical/build-in-public.
 - [`maximus-deep-research`](./skills/maximus-deep-research) — multi-source synthesis + competitive intelligence.
 - [`maximus-deep-research-pro`](./skills/maximus-deep-research-pro) — **inference-driven** research: hypothesis-first, adversarial verification, cross-source inference, confidence ledger.
@@ -104,11 +104,12 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 - [`maximus-people-finder-recruiter`](./skills/maximus-people-finder-recruiter) — deep 8-step recruiter agent (candidate sourcing across any employer type).
 - [`maximus-counterparty-discovery`](./skills/maximus-counterparty-discovery) — finance-grade counterparty discovery with regulator filings, court dockets, source-by-source provenance, and a compliance gate before outreach.
 - [`maximus-contact-intelligence`](./skills/maximus-contact-intelligence) — find the most likely professional business email from a LinkedIn URL, with pattern discovery, verification, and confidence scoring. Never labels a guess as verified.
+- [`maximus-transaction-analyst`](./skills/maximus-transaction-analyst) — turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations, and names what's still unresolved. Never fills factual gaps with outside knowledge.
 
 **AI SEO pack (7, opt-in)** — see [`packs/ai-seo/`](./packs/ai-seo)
 - [`maximus-ai-seo-strategy`](./packs/ai-seo/maximus-ai-seo-strategy) · [`maximus-aeo-optimization`](./packs/ai-seo/maximus-aeo-optimization) · [`maximus-geo-optimization`](./packs/ai-seo/maximus-geo-optimization) · [`maximus-technical-seo`](./packs/ai-seo/maximus-technical-seo) · [`maximus-content-seo`](./packs/ai-seo/maximus-content-seo) · [`maximus-seo-audit`](./packs/ai-seo/maximus-seo-audit) · [`maximus-llm-visibility-tracking`](./packs/ai-seo/maximus-llm-visibility-tracking)
 
-**Total: 42 skills.**
+**Total: 43 skills.**
 
 ### Homepage sync
 
@@ -116,6 +117,7 @@ The live site at [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com
 
 ### Blog
 
+- [Maximus grows to 43 — adding the Transaction Analyst](./blog/2026-08-13-transaction-analyst.md) (2026-08-13)
 - [Three skills that make Maximus research like a person](./blog/2026-08-12-reasoning-and-research-skills.md) (2026-08-12)
 - [Two Kimi K3 skills join Maximus](./blog/2026-07-29-kimi-k3-skills.md) (2026-07-29)
 - [Maximus grows to 37 — adding Contact Intelligence](./blog/2026-07-23-contact-intelligence.md) (2026-07-23)
