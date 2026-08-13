@@ -11,7 +11,17 @@ Free · Open · Ungated, forever · Runs on any model, or a free local one
 
 [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) · [Quickstart](#quickstart) · [Agents](#agents-standalone-apps) · [For developers](#for-developers)
 
+![License](https://img.shields.io/badge/license-MIT-black?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-43-orange?style=flat-square)
+![Pillars](https://img.shields.io/badge/pillars-5-black?style=flat-square)
+![Free](https://img.shields.io/badge/free-forever-orange?style=flat-square)
+![Model agnostic](https://img.shields.io/badge/model-agnostic-black?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/MacroTechTitan/MaximusAI?style=flat-square&color=orange)
+![GitHub forks](https://img.shields.io/github/forks/MacroTechTitan/MaximusAI?style=flat-square&color=black)
+
 </div>
+
+> If Maximus is useful to you, a **star** helps others find it. That's the only ask.
 
 ---
 
@@ -207,6 +217,10 @@ don't fork.**
 **Build your own skill:** copy `skills/_template/`, write a `SKILL.md` that
 encodes a real procedure (the gotchas a generic model would miss — that's the
 value), and link it in. See `CLAUDE.md` for the format and quality bar.
+
+## Star history
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MacroTechTitan/MaximusAI&type=Date)](https://star-history.com/#MacroTechTitan/MaximusAI&Date)
 
 ## License
 
