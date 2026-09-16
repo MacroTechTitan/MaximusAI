@@ -4,7 +4,7 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 44 skills across 5 pillars (37 in `skills/`, 7 in `packs/ai-seo/`)
+**Total skills:** 44 skills across 5 pillars + 2 opt-in packs (36 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`)
 **Last updated:** 2026-09-15
 
 ---
@@ -32,9 +32,9 @@ Card grid, 1 card:
 
 Link: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/maximus-brain
 
-## Pillar 2: Build & Ship (11 skills)
+## Pillar 2: Build & Ship (10 skills)
 
-Card grid, 11 cards, each with skill name and one-line description:
+Card grid, 10 cards, each with skill name and one-line description:
 - maximus-design-spec — Write a software design spec before code.
 - maximus-plan-implementation — Break an approved design into a minimum-change plan.
 - maximus-build-feature — Implement features with read-before-edit discipline.
@@ -45,11 +45,8 @@ Card grid, 11 cards, each with skill name and one-line description:
 - maximus-fintech-payments — Stripe, webhooks, idempotency, PCI awareness.
 - maximus-python-scientific — Reproducible pipelines: pinned deps, fixed seeds.
 - maximus-replit-handoff-pro — Production handoffs between Computer and Replit Agent.
-- mtt-claude-cursor — Run Claude Code inside Cursor with fewer approval interruptions: launch flags, a continuous-execution rule for routine reversible work, interrupted-session recovery from git state, and approval-prompt triage. Never pretends permissive modes make destructive actions safe. NEW.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
-
-Highlight the "NEW" tag on mtt-claude-cursor.
 
 ## Pillar 3: AI Engineering (15 skills)
 
@@ -88,7 +85,7 @@ Card grid, 10 cards:
 - maximus-contact-intelligence — Find the most likely professional business email from a LinkedIn URL, with pattern discovery, verification, and confidence scoring. Never labels a guess as verified.
 - maximus-transaction-analyst — Turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations. Never fills factual gaps with outside knowledge.
 
-The previous NEW tags on maximus-transaction-analyst, maximus-investigative-research, and maximus-literature-review can be removed; those are now shipped. The only NEW tag in this update belongs to mtt-claude-cursor in Pillar 2.
+The previous NEW tags on maximus-transaction-analyst, maximus-investigative-research, and maximus-literature-review can be removed; those are now shipped. The only NEW tag in this update belongs to mtt-claude-cursor in the Dev Workflow Pack section.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
@@ -107,6 +104,26 @@ Card grid, 7 cards:
 - maximus-llm-visibility-tracking — Measure citation share across Perplexity, ChatGPT, Claude, Gemini, AI Overviews.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/ai-seo/<skill-name>
+
+## Dev Workflow Pack (1 skill, opt-in)
+
+Add a small section directly below the AI SEO Pack, using the same opt-in pack
+styling — same card style, same "opt-in" treatment.
+
+Headline: "Dev Workflow Pack — opt-in"
+Subhead: "Project-specific delivery skills. Off by default, linked in when you
+want them."
+
+Card grid, 1 card:
+- mtt-claude-cursor — Run Claude Code inside Cursor with fewer approval
+  interruptions: launch flags, a continuous-execution rule that pre-authorizes
+  routine reversible in-repo work, interrupted-session recovery from git state,
+  and approval-prompt triage across the two permission layers. Honest about the
+  limit: fewer confirmations, not fewer consequences. NEW.
+
+Card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/devops/skills/mtt-claude-cursor
+
+Highlight the "NEW" tag on this card. It is the only NEW tag on the page.
 
 ## CTA
 
@@ -219,6 +236,11 @@ Also add JSON-LD `BlogPosting` structured data to the launch post page (title, d
 
 1. Update the skill count and last-updated date at the top.
 2. Update the counts in the copy-paste prompts and headline.
-3. Add or remove skill cards in the correct pillar.
+3. Add or remove skill cards in the correct pillar, or in the correct opt-in
+   pack section if the skill lives under `packs/`. Pack cards link to
+   `.../tree/main/packs/<pack>/skills/<skill-name>` (the `ai-seo` pack is the
+   one exception — its skills sit directly under `packs/ai-seo/<skill-name>`).
 4. Re-paste both prompt blocks into Lovable.
-5. Update the README's skill catalog to match.
+5. Update the README's skill catalog to match (including the skills badge).
+6. If the skill lives in a pack, update that pack's README under `## Skills`
+   with the one-line `ln -sfn` enable command.
