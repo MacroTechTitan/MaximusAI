@@ -130,6 +130,7 @@ The live site at [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com
 
 ### Blog
 
+- [Maximus grows to 44 — the approval treadmill](./blog/2026-09-15-mtt-claude-cursor.md) (2026-09-15)
 - [Maximus grows to 43 — adding the Transaction Analyst](./blog/2026-08-13-transaction-analyst.md) (2026-08-13)
 - [Three skills that make Maximus research like a person](./blog/2026-08-12-reasoning-and-research-skills.md) (2026-08-12)
 - [Two Kimi K3 skills join Maximus](./blog/2026-07-29-kimi-k3-skills.md) (2026-07-29)
