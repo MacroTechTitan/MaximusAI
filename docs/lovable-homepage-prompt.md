@@ -151,23 +151,30 @@ Route: /blog
 Layout: List of posts with title, date, one-line excerpt. Match the existing
 site's visual language. No new design directions.
 
-Seed with five posts, newest first:
+Seed with six posts, newest first:
 
 1. Latest
+- Title: "Maximus grows to 44 — the approval treadmill"
+- Date: 2026-09-15
+- Excerpt: "mtt-claude-cursor — the operating model for development driven by Claude Code inside Cursor. Pre-authorizes routine reversible in-repo work, keeps hard stops where they belong, recovers interrupted sessions from git state, and fixes command shape instead of weakening protections. Suite now at 44 skills."
+- Link: /blog/mtt-claude-cursor
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-15-mtt-claude-cursor.md
+
+2. Previous
 - Title: "Maximus grows to 43 — adding the Transaction Analyst"
 - Date: 2026-08-13
 - Excerpt: "maximus-transaction-analyst — turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations, and names what's still unresolved. Suite now at 43 skills."
 - Link: /blog/transaction-analyst
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-13-transaction-analyst.md
 
-2. Previous
+3. Previous
 - Title: "Three skills that make Maximus research like a person"
 - Date: 2026-08-12
 - Excerpt: "maximus-chain-of-verification, maximus-investigative-research, and maximus-literature-review — the reasoning-quality layer, the reporter's discipline, and the researcher's PRISMA workflow. Suite now at 42 skills."
 - Link: /blog/reasoning-and-research-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-12-reasoning-and-research-skills.md
 
-3. Previous
+4. Previous
 - Title: "Two Kimi K3 skills join Maximus"
 - Date: 2026-07-29
 - Excerpt: "maximus-k3-model-selection and maximus-k3-self-hosting — pick the
@@ -176,7 +183,7 @@ Seed with five posts, newest first:
 - Link: /blog/kimi-k3-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-29-kimi-k3-skills.md
 
-4. Older
+5. Older
 - Title: "Maximus grows to 37 — adding Contact Intelligence"
 - Date: 2026-07-23
 - Excerpt: "A new skill for finding professional business emails from a
@@ -185,7 +192,7 @@ Seed with five posts, newest first:
 - Link: /blog/contact-intelligence
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-23-contact-intelligence.md
 
-5. Launch post
+6. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
 - Excerpt: "44 skills. 5 pillars. One workhorse. The full suite for engineers,
@@ -244,3 +251,5 @@ Also add JSON-LD `BlogPosting` structured data to the launch post page (title, d
 5. Update the README's skill catalog to match (including the skills badge).
 6. If the skill lives in a pack, update that pack's README under `## Skills`
    with the one-line `ln -sfn` enable command.
+7. Add the release blog post to `blog/`, to the seed list in the blog prompt
+   above, and to the README blog index.
