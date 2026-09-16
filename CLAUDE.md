@@ -123,6 +123,29 @@ rather than universal.
   metadata) before committing.
 - One logical change per commit; clear messages.
 
+## Working this repo from Claude Code inside Cursor
+
+If you are driving this repo through Claude Code inside Cursor, enable
+[`packs/devops/skills/mtt-claude-cursor`](./packs/devops/skills/mtt-claude-cursor)
+and follow it. It is the standing execution contract for that setup:
+
+- Routine reversible work inside the active repository is pre-authorized — reads,
+  searches, edits, tests, builds, lint, typecheck, formatting, read-only git. Do
+  not stop to ask for those.
+- Stop for destructive or irreversible actions, anything touching secrets, any
+  production or external mutation not already authorized, migrations needing
+  operator approval, force-push or shared-history rewrites, and genuine
+  unresolved product or architecture decisions.
+- Prefer simple literal inspection commands (`rg`, `grep`, `find`, `cat`, `head`,
+  `tail`, `sed`) over inline Python, dynamic command strings, command
+  substitution, and complex pipelines. The permission parser cannot safely
+  analyze the latter, which is what generates most avoidable approval prompts.
+- Treat a truncated response, API error, or dropped stream as an interruption,
+  not a cancellation. Recover state from `git status` and `git diff`, continue
+  from the first incomplete step, and do not redo completed work.
+- Cursor approvals and Claude Code permissions are separate layers. Neither one
+  makes a destructive action safe; they only reduce confirmation prompts.
+
 ## When in doubt
 
 Ask whether the change serves a **human driving the work**. If it adds capability,

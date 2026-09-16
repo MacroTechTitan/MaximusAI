@@ -34,19 +34,32 @@ Use the appropriate template:
    it belongs in the library, if it overlaps with an existing skill, and
    which pillar it fits.
 2. **Fork the repo.**
-3. **Copy `skills/_template/` to `skills/maximus-<your-skill-name>/`.**
-4. **Write `SKILL.md`** following the frontmatter and structure conventions
+3. **Decide core or pack first.** Generic, reusable skills go in
+   `skills/maximus-<your-skill-name>/`. Anything tied to a specific project,
+   company, product, or domain goes in `packs/<pack>/skills/<skill-name>/` and
+   is off by default — see non-negotiable #2 in `CLAUDE.md`. Pack skills are not
+   required to carry the `maximus-` prefix; they keep the name the operator
+   already uses (e.g. `mtt-claude-cursor` in `packs/devops/`). Getting this wrong
+   leaks project specifics into core, which is the one architectural mistake the
+   maintainer will always send back.
+4. **Copy `skills/_template/` to the location you chose.**
+5. **Write `SKILL.md`** following the frontmatter and structure conventions
    in `CLAUDE.md`. The description field is under 1024 characters. The name
    matches the directory name. No emoji.
-5. **Bundle the skill:** `SKILL.md` (required), `README.md`, `HOWTO.md` with
+6. **Bundle the skill:** `SKILL.md` (required), `README.md`, `HOWTO.md` with
    recipes, and at least one worked example under `examples/`.
-6. **Validate** with `agentskills validate skills/maximus-<your-skill-name>/`.
-7. **Open a PR** with a title in the form:
-   `Add maximus-<your-skill-name> (<current-count> → <new-count>)`
-8. **Update the README** to include your skill in the correct pillar and
-   bump the total count.
-9. **Update `docs/lovable-homepage-prompt.md`** to include a card for the
-   new skill.
+7. **Validate** with `agentskills validate <path-to-your-skill>/`. Frontmatter
+   keys must be single-line and `metadata` must be single-line JSON — multi-line
+   YAML metadata breaks OpenClaw's parser.
+8. **Open a PR** with a title in the form:
+   `Add <your-skill-name> (<current-count> → <new-count>)`
+9. **Update the README** to include your skill in the correct pillar (or pack
+   section) and bump the total count and the skills badge.
+10. **Update `docs/lovable-homepage-prompt.md`** to include a card for the
+    new skill, rotate the `NEW` tag onto it, and sync the counts in the headline
+    and SEO metadata. The live homepage is regenerated from that file.
+11. **Update the pack README** if you added a pack skill: describe it under
+    `## Skills` and give the one-line `ln -sfn` enable command.
 
 ## Submitting a fix or refinement to an existing skill
 

@@ -1,9 +1,7 @@
 ---
 name: mtt-claude-cursor
 description: Standard operating instructions for Macro Tech Titan development work performed with Claude Code inside Cursor. Use when preparing Claude/Cursor prompts, resuming interrupted coding sessions, reducing routine approval prompts, configuring autonomous repo execution, or handing development work to Claude Code across MTT projects such as TelePath OS, DevOS, AI Connect, DealMatch, Founders Showcase, Maximus, and related repositories.
-metadata:
-  pillar: build
-  source: mtt
+metadata: { "openclaw": { "emoji": "🖥️", "pillar": "build", "source": "mtt" } }
 ---
 
 # MTT Claude Cursor
