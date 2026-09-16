@@ -12,7 +12,7 @@ Free · Open · Ungated, forever · Runs on any model, or a free local one
 [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) · [Quickstart](#quickstart) · [Agents](#agents-standalone-apps) · [For developers](#for-developers)
 
 ![License](https://img.shields.io/badge/license-MIT-black?style=flat-square)
-![Skills](https://img.shields.io/badge/skills-43-orange?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-44-orange?style=flat-square)
 ![Pillars](https://img.shields.io/badge/pillars-5-black?style=flat-square)
 ![Free](https://img.shields.io/badge/free-forever-orange?style=flat-square)
 ![Model agnostic](https://img.shields.io/badge/model-agnostic-black?style=flat-square)
@@ -98,8 +98,8 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **Cognitive OS**
 - [`maximus-brain`](./skills/maximus-brain) — cognitive operating system: think-before-act, memory hygiene, depth-adaptive execution.
 
-**Build & ship (10)**
-- [`maximus-design-spec`](./skills/maximus-design-spec) · [`maximus-plan-implementation`](./skills/maximus-plan-implementation) · [`maximus-build-feature`](./skills/maximus-build-feature) · [`maximus-code-review`](./skills/maximus-code-review) · [`maximus-debug-incident`](./skills/maximus-debug-incident) · [`maximus-eval-and-test`](./skills/maximus-eval-and-test) · [`maximus-devops-ship`](./skills/maximus-devops-ship) · [`maximus-fintech-payments`](./skills/maximus-fintech-payments) · [`maximus-python-scientific`](./skills/maximus-python-scientific) · [`maximus-replit-handoff-pro`](./skills/maximus-replit-handoff-pro)
+**Build & ship (11)**
+- [`maximus-design-spec`](./skills/maximus-design-spec) · [`maximus-plan-implementation`](./skills/maximus-plan-implementation) · [`maximus-build-feature`](./skills/maximus-build-feature) · [`maximus-code-review`](./skills/maximus-code-review) · [`maximus-debug-incident`](./skills/maximus-debug-incident) · [`maximus-eval-and-test`](./skills/maximus-eval-and-test) · [`maximus-devops-ship`](./skills/maximus-devops-ship) · [`maximus-fintech-payments`](./skills/maximus-fintech-payments) · [`maximus-python-scientific`](./skills/maximus-python-scientific) · [`maximus-replit-handoff-pro`](./skills/maximus-replit-handoff-pro) · [`mtt-claude-cursor`](./skills/mtt-claude-cursor) — MTT operating model for Claude Code inside Cursor: launch flags, continuous-execution rule, interrupted-session recovery, and approval-prompt triage.
 
 **AI engineering (15)**
 - [`maximus-agent-design`](./skills/maximus-agent-design) · [`maximus-prompt-engineering`](./skills/maximus-prompt-engineering) · [`maximus-rag-pipeline`](./skills/maximus-rag-pipeline) · [`maximus-llm-model-selection`](./skills/maximus-llm-model-selection) · [`maximus-ai-product-spec`](./skills/maximus-ai-product-spec) · [`maximus-ai-safety-governance`](./skills/maximus-ai-safety-governance) · [`maximus-ai-data-pipeline`](./skills/maximus-ai-data-pipeline) · [`maximus-fine-tuning`](./skills/maximus-fine-tuning) · [`maximus-ai-fluency-for-builders`](./skills/maximus-ai-fluency-for-builders) · [`maximus-ai-cost-control`](./skills/maximus-ai-cost-control) · [`maximus-mlops-deploy`](./skills/maximus-mlops-deploy) · [`maximus-ai-ux-patterns`](./skills/maximus-ai-ux-patterns) · [`maximus-k3-model-selection`](./skills/maximus-k3-model-selection) — decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2, benchmark-cited and honest. · [`maximus-k3-self-hosting`](./skills/maximus-k3-self-hosting) — plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate. · [`maximus-chain-of-verification`](./skills/maximus-chain-of-verification) — apply factored CoVe as the final layer before delivery: draft → independent verification questions → fresh-context answers → revise, with a claim-by-claim confidence ledger. 40–60% documented hallucination reduction.
@@ -119,7 +119,7 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **AI SEO pack (7, opt-in)** — see [`packs/ai-seo/`](./packs/ai-seo)
 - [`maximus-ai-seo-strategy`](./packs/ai-seo/maximus-ai-seo-strategy) · [`maximus-aeo-optimization`](./packs/ai-seo/maximus-aeo-optimization) · [`maximus-geo-optimization`](./packs/ai-seo/maximus-geo-optimization) · [`maximus-technical-seo`](./packs/ai-seo/maximus-technical-seo) · [`maximus-content-seo`](./packs/ai-seo/maximus-content-seo) · [`maximus-seo-audit`](./packs/ai-seo/maximus-seo-audit) · [`maximus-llm-visibility-tracking`](./packs/ai-seo/maximus-llm-visibility-tracking)
 
-**Total: 43 skills.**
+**Total: 44 skills.**
 
 ### Homepage sync
 

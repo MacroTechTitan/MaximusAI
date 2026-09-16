@@ -4,22 +4,22 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 43 Maximus skills across 5 pillars (36 in `skills/`, 7 in `packs/ai-seo/`)
-**Last updated:** 2026-08-13
+**Total skills:** 44 skills across 5 pillars (37 in `skills/`, 7 in `packs/ai-seo/`)
+**Last updated:** 2026-09-15
 
 ---
 
 ## Copy-paste prompt for Lovable (homepage skills section)
 
 ```
-Update the MaximusAI homepage to feature the full 43-skill Maximus suite,
+Update the MaximusAI homepage to feature the full 44-skill Maximus suite,
 grouped into 5 pillars. Match the existing visual language of the site — do
 not redesign — but add or replace the "Skills" section between the hero and
 the footer.
 
 ## Section: "The Maximus Suite"
 
-Add a headline: "43 skills. 5 pillars. One workhorse."
+Add a headline: "44 skills. 5 pillars. One workhorse."
 Add a subhead: "Each skill is a self-contained instruction set an AI agent
 loads on demand. No dead weight, no hand-waving. Built for engineers,
 founders, and scientists."
@@ -32,9 +32,9 @@ Card grid, 1 card:
 
 Link: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/maximus-brain
 
-## Pillar 2: Build & Ship (10 skills)
+## Pillar 2: Build & Ship (11 skills)
 
-Card grid, 10 cards, each with skill name and one-line description:
+Card grid, 11 cards, each with skill name and one-line description:
 - maximus-design-spec — Write a software design spec before code.
 - maximus-plan-implementation — Break an approved design into a minimum-change plan.
 - maximus-build-feature — Implement features with read-before-edit discipline.
@@ -45,8 +45,11 @@ Card grid, 10 cards, each with skill name and one-line description:
 - maximus-fintech-payments — Stripe, webhooks, idempotency, PCI awareness.
 - maximus-python-scientific — Reproducible pipelines: pinned deps, fixed seeds.
 - maximus-replit-handoff-pro — Production handoffs between Computer and Replit Agent.
+- mtt-claude-cursor — Run Claude Code inside Cursor with fewer approval interruptions: launch flags, a continuous-execution rule for routine reversible work, interrupted-session recovery from git state, and approval-prompt triage. Never pretends permissive modes make destructive actions safe. NEW.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
+
+Highlight the "NEW" tag on mtt-claude-cursor.
 
 ## Pillar 3: AI Engineering (15 skills)
 
@@ -83,9 +86,9 @@ Card grid, 10 cards:
 - maximus-people-finder-recruiter — Deep 8-step recruiter agent for candidate sourcing.
 - maximus-counterparty-discovery — Finance-grade counterparty discovery: SEC filings, court dockets, source-by-source provenance, compliance gate before outreach.
 - maximus-contact-intelligence — Find the most likely professional business email from a LinkedIn URL, with pattern discovery, verification, and confidence scoring. Never labels a guess as verified.
-- maximus-transaction-analyst — Turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations. Never fills factual gaps with outside knowledge. NEW.
+- maximus-transaction-analyst — Turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations. Never fills factual gaps with outside knowledge.
 
-Highlight the "NEW" tag on maximus-transaction-analyst. (The previous NEW tags on maximus-investigative-research and maximus-literature-review can be removed; those are now shipped.)
+The previous NEW tags on maximus-transaction-analyst, maximus-investigative-research, and maximus-literature-review can be removed; those are now shipped. The only NEW tag in this update belongs to mtt-claude-cursor in Pillar 2.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
@@ -168,7 +171,7 @@ Seed with five posts, newest first:
 5. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
-- Excerpt: "43 skills. 5 pillars. One workhorse. The full suite for engineers,
+- Excerpt: "44 skills. 5 pillars. One workhorse. The full suite for engineers,
   founders, and scientists building with AI — from cognitive OS to AI SEO."
 - Link: /blog/maximus-suite-launch
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-20-maximus-suite-launch.md
@@ -201,9 +204,9 @@ the nav and footer.
 
 ## SEO metadata to keep in sync
 
-- Homepage title tag: "MaximusAI — 43 skills for AI-native engineers"
-- Meta description: "A suite of 43 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
-- Open Graph title: "MaximusAI — 43 skills for AI-native engineers"
+- Homepage title tag: "MaximusAI — 44 skills for AI-native engineers"
+- Meta description: "A suite of 44 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
+- Open Graph title: "MaximusAI — 44 skills for AI-native engineers"
 - Open Graph description: same as meta description.
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: `SoftwareApplication` with `applicationCategory: DeveloperApplication`.
