@@ -12,7 +12,7 @@ Free · Open · Ungated, forever · Runs on any model, or a free local one
 [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) · [Quickstart](#quickstart) · [Agents](#agents-standalone-apps) · [For developers](#for-developers)
 
 ![License](https://img.shields.io/badge/license-MIT-black?style=flat-square)
-![Skills](https://img.shields.io/badge/skills-44-orange?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-49-orange?style=flat-square)
 ![Pillars](https://img.shields.io/badge/pillars-5-black?style=flat-square)
 ![Free](https://img.shields.io/badge/free-forever-orange?style=flat-square)
 ![Model agnostic](https://img.shields.io/badge/model-agnostic-black?style=flat-square)
@@ -122,7 +122,10 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **AI SEO pack (7, opt-in)** — see [`packs/ai-seo/`](./packs/ai-seo)
 - [`maximus-ai-seo-strategy`](./packs/ai-seo/maximus-ai-seo-strategy) · [`maximus-aeo-optimization`](./packs/ai-seo/maximus-aeo-optimization) · [`maximus-geo-optimization`](./packs/ai-seo/maximus-geo-optimization) · [`maximus-technical-seo`](./packs/ai-seo/maximus-technical-seo) · [`maximus-content-seo`](./packs/ai-seo/maximus-content-seo) · [`maximus-seo-audit`](./packs/ai-seo/maximus-seo-audit) · [`maximus-llm-visibility-tracking`](./packs/ai-seo/maximus-llm-visibility-tracking)
 
-**Total: 44 skills.**
+**Film pack (5, opt-in)** — see [`packs/film/`](./packs/film) — for working filmmakers, feature-length only, no shorts, no AI slop
+- [`maximus-screenplay-format`](./packs/film/maximus-screenplay-format) · [`maximus-production-schedule`](./packs/film/maximus-production-schedule) · [`maximus-film-budget`](./packs/film/maximus-film-budget) · [`maximus-post-pipeline`](./packs/film/maximus-post-pipeline) · [`maximus-filmhub-delivery`](./packs/film/maximus-filmhub-delivery)
+
+**Total: 49 skills.**
 
 ### Homepage sync
 
@@ -130,6 +133,7 @@ The live site at [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com
 
 ### Blog
 
+- [Maximus grows to 49 — the Film Pack, for working filmmakers](./blog/2026-09-20-film-pack-launch.md) (2026-09-20)
 - [Maximus grows to 44 — the approval treadmill](./blog/2026-09-15-mtt-claude-cursor.md) (2026-09-15)
 - [Maximus grows to 43 — adding the Transaction Analyst](./blog/2026-08-13-transaction-analyst.md) (2026-08-13)
 - [Three skills that make Maximus research like a person](./blog/2026-08-12-reasoning-and-research-skills.md) (2026-08-12)

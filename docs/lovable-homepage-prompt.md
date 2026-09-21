@@ -4,22 +4,22 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 44 skills across 5 pillars + 2 opt-in packs (36 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`)
-**Last updated:** 2026-09-15
+**Total skills:** 49 skills across 5 pillars + 3 opt-in packs (36 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`, 5 in `packs/film/`)
+**Last updated:** 2026-09-20
 
 ---
 
 ## Copy-paste prompt for Lovable (homepage skills section)
 
 ```
-Update the MaximusAI homepage to feature the full 44-skill Maximus suite,
+Update the MaximusAI homepage to feature the full 49-skill Maximus suite,
 grouped into 5 pillars. Match the existing visual language of the site — do
 not redesign — but add or replace the "Skills" section between the hero and
 the footer.
 
 ## Section: "The Maximus Suite"
 
-Add a headline: "44 skills. 5 pillars. One workhorse."
+Add a headline: "49 skills. 5 pillars. 3 packs. One workhorse."
 Add a subhead: "Each skill is a self-contained instruction set an AI agent
 loads on demand. No dead weight, no hand-waving. Built for engineers,
 founders, and scientists."
@@ -123,7 +123,23 @@ Card grid, 1 card:
 
 Card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/devops/skills/mtt-claude-cursor
 
-Highlight the "NEW" tag on this card. It is the only NEW tag on the page.
+## Film Pack (5 skills, opt-in)
+
+Add a section below the Dev Workflow Pack, using the same opt-in pack styling.
+
+Headline: "Film Pack — opt-in"
+Subhead: "For working filmmakers. Feature-length only. No shorts. No AI slop. Console-first, industry-standard formats: Fountain, EDL/AAF/XML, AICP account codes, DCP, Rec.709/ACES."
+
+Card grid, 5 cards:
+- maximus-screenplay-format — Console-first Fountain screenplay authoring; industry-standard PDF (Courier Prime 12pt, 1.5" margin) and Final Draft .fdx export; runtime estimation. NEW.
+- maximus-production-schedule — Turn a locked Fountain script into scene breakdown, stripboard, one-liner, day-out-of-days. Console-first, Movie Magic alternative. NEW.
+- maximus-film-budget — AICP/AMPTP account-code budget templating (1000-4700 series), ATL/BTL, contingency, completion bond, fringes. CSV/XLSX Movie Magic round-trip. NEW.
+- maximus-post-pipeline — Dailies workflow, offline/online conform, EDL/AAF/XML round-trip, ACES vs Rec.709, DCP prep, per-buyer deliverables matrix. NEW.
+- maximus-filmhub-delivery — Prepare, validate, troubleshoot feature-film delivery masters. FFprobe-first, remux-don't-re-encode, attached-thumbnail cleanup, WSP/OBA compliance flag. NEW.
+
+Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/film/<skill-name>
+
+Highlight the "NEW" tag on all 5 Film Pack cards. Remove the NEW tag from mtt-claude-cursor (this is the latest launch).
 
 ## CTA
 
@@ -228,9 +244,9 @@ the nav and footer.
 
 ## SEO metadata to keep in sync
 
-- Homepage title tag: "MaximusAI — 44 skills for AI-native engineers"
-- Meta description: "A suite of 44 AI agent skills across engineering, AI, research, people-finding, and SEO. Built for engineers, founders, and scientists."
-- Open Graph title: "MaximusAI — 44 skills for AI-native engineers"
+- Homepage title tag: "MaximusAI — 49 skills for AI-native engineers and working filmmakers"
+- Meta description: "A suite of 49 AI agent skills across engineering, AI, research, people-finding, SEO, and feature-film production. Built for engineers, founders, scientists, and working filmmakers."
+- Open Graph title: "MaximusAI — 49 skills for AI-native engineers and working filmmakers"
 - Open Graph description: same as meta description.
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: `SoftwareApplication` with `applicationCategory: DeveloperApplication`.
