@@ -133,6 +133,7 @@ The live site at [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com
 
 ### Blog
 
+- [Maximus grows to 51 — hallucination is usually an architecture bug](./blog/2026-09-22-slm-local-skills.md) (2026-09-22)
 - [Maximus grows to 49 — the Film Pack, for working filmmakers](./blog/2026-09-20-film-pack-launch.md) (2026-09-20)
 - [Maximus grows to 44 — the approval treadmill](./blog/2026-09-15-mtt-claude-cursor.md) (2026-09-15)
 - [Maximus grows to 43 — adding the Transaction Analyst](./blog/2026-08-13-transaction-analyst.md) (2026-08-13)
