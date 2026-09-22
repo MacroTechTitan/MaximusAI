@@ -169,30 +169,44 @@ Route: /blog
 Layout: List of posts with title, date, one-line excerpt. Match the existing
 site's visual language. No new design directions.
 
-Seed with six posts, newest first:
+Seed with eight posts, newest first:
 
 1. Latest
+- Title: "Maximus grows to 51 — hallucination is usually an architecture bug"
+- Date: 2026-09-22
+- Excerpt: "Two skills for small local models: maximus-slm-local-stack for the hardware, KV-cache VRAM math, quantization and runtime, and maximus-local-research-assistant for grounded local RAG with a refusal contract, span citations, and verification. The premise: 'it makes things up' is usually an architecture bug, not a model bug. Suite now at 51 skills."
+- Link: /blog/slm-local-skills
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-22-slm-local-skills.md
+
+2. Previous
+- Title: "Maximus grows to 49 — the Film Pack, for working filmmakers"
+- Date: 2026-09-20
+- Excerpt: "Five opt-in skills for people who make films with cameras, cast, and a call sheet: Fountain screenplay formatting to industry-standard PDF and .fdx, scene breakdown to stripboard and day-out-of-days, AICP account-code budgeting, post pipeline, and Filmhub delivery. Feature-length only, no AI slop. Suite now at 49 skills."
+- Link: /blog/film-pack-launch
+- Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-20-film-pack-launch.md
+
+3. Previous
 - Title: "Maximus grows to 44 — the approval treadmill"
 - Date: 2026-09-15
 - Excerpt: "mtt-claude-cursor — the operating model for development driven by Claude Code inside Cursor. Pre-authorizes routine reversible in-repo work, keeps hard stops where they belong, recovers interrupted sessions from git state, and fixes command shape instead of weakening protections. Suite now at 44 skills."
 - Link: /blog/mtt-claude-cursor
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-15-mtt-claude-cursor.md
 
-2. Previous
+4. Previous
 - Title: "Maximus grows to 43 — adding the Transaction Analyst"
 - Date: 2026-08-13
 - Excerpt: "maximus-transaction-analyst — turn a dense deal folder (emails, term sheets, closing docs, wires) into a two-page executive transaction memo. Reconstructs chronology, reconciles numbers, separates facts from allegations, and names what's still unresolved. Suite now at 43 skills."
 - Link: /blog/transaction-analyst
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-13-transaction-analyst.md
 
-3. Previous
+5. Previous
 - Title: "Three skills that make Maximus research like a person"
 - Date: 2026-08-12
 - Excerpt: "maximus-chain-of-verification, maximus-investigative-research, and maximus-literature-review — the reasoning-quality layer, the reporter's discipline, and the researcher's PRISMA workflow. Suite now at 42 skills."
 - Link: /blog/reasoning-and-research-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-12-reasoning-and-research-skills.md
 
-4. Previous
+6. Previous
 - Title: "Two Kimi K3 skills join Maximus"
 - Date: 2026-07-29
 - Excerpt: "maximus-k3-model-selection and maximus-k3-self-hosting — pick the
@@ -201,7 +215,7 @@ Seed with six posts, newest first:
 - Link: /blog/kimi-k3-skills
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-29-kimi-k3-skills.md
 
-5. Older
+7. Older
 - Title: "Maximus grows to 37 — adding Contact Intelligence"
 - Date: 2026-07-23
 - Excerpt: "A new skill for finding professional business emails from a
@@ -210,7 +224,7 @@ Seed with six posts, newest first:
 - Link: /blog/contact-intelligence
 - Source Markdown: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-23-contact-intelligence.md
 
-6. Launch post
+8. Launch post
 - Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
 - Date: 2026-07-20
 - Excerpt: "44 skills. 5 pillars. One workhorse. The full suite for engineers,
