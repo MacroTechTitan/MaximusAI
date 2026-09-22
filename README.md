@@ -12,7 +12,7 @@ Free · Open · Ungated, forever · Runs on any model, or a free local one
 [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) · [Quickstart](#quickstart) · [Agents](#agents-standalone-apps) · [For developers](#for-developers)
 
 ![License](https://img.shields.io/badge/license-MIT-black?style=flat-square)
-![Skills](https://img.shields.io/badge/skills-49-orange?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-50-orange?style=flat-square)
 ![Pillars](https://img.shields.io/badge/pillars-5-black?style=flat-square)
 ![Free](https://img.shields.io/badge/free-forever-orange?style=flat-square)
 ![Model agnostic](https://img.shields.io/badge/model-agnostic-black?style=flat-square)
@@ -101,8 +101,8 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **Build & ship (10)**
 - [`maximus-design-spec`](./skills/maximus-design-spec) · [`maximus-plan-implementation`](./skills/maximus-plan-implementation) · [`maximus-build-feature`](./skills/maximus-build-feature) · [`maximus-code-review`](./skills/maximus-code-review) · [`maximus-debug-incident`](./skills/maximus-debug-incident) · [`maximus-eval-and-test`](./skills/maximus-eval-and-test) · [`maximus-devops-ship`](./skills/maximus-devops-ship) · [`maximus-fintech-payments`](./skills/maximus-fintech-payments) · [`maximus-python-scientific`](./skills/maximus-python-scientific) · [`maximus-replit-handoff-pro`](./skills/maximus-replit-handoff-pro)
 
-**AI engineering (15)**
-- [`maximus-agent-design`](./skills/maximus-agent-design) · [`maximus-prompt-engineering`](./skills/maximus-prompt-engineering) · [`maximus-rag-pipeline`](./skills/maximus-rag-pipeline) · [`maximus-llm-model-selection`](./skills/maximus-llm-model-selection) · [`maximus-ai-product-spec`](./skills/maximus-ai-product-spec) · [`maximus-ai-safety-governance`](./skills/maximus-ai-safety-governance) · [`maximus-ai-data-pipeline`](./skills/maximus-ai-data-pipeline) · [`maximus-fine-tuning`](./skills/maximus-fine-tuning) · [`maximus-ai-fluency-for-builders`](./skills/maximus-ai-fluency-for-builders) · [`maximus-ai-cost-control`](./skills/maximus-ai-cost-control) · [`maximus-mlops-deploy`](./skills/maximus-mlops-deploy) · [`maximus-ai-ux-patterns`](./skills/maximus-ai-ux-patterns) · [`maximus-k3-model-selection`](./skills/maximus-k3-model-selection) — decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2, benchmark-cited and honest. · [`maximus-k3-self-hosting`](./skills/maximus-k3-self-hosting) — plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate. · [`maximus-chain-of-verification`](./skills/maximus-chain-of-verification) — apply factored CoVe as the final layer before delivery: draft → independent verification questions → fresh-context answers → revise, with a claim-by-claim confidence ledger. 40–60% documented hallucination reduction.
+**AI engineering (16)**
+- [`maximus-agent-design`](./skills/maximus-agent-design) · [`maximus-prompt-engineering`](./skills/maximus-prompt-engineering) · [`maximus-rag-pipeline`](./skills/maximus-rag-pipeline) · [`maximus-llm-model-selection`](./skills/maximus-llm-model-selection) · [`maximus-ai-product-spec`](./skills/maximus-ai-product-spec) · [`maximus-ai-safety-governance`](./skills/maximus-ai-safety-governance) · [`maximus-ai-data-pipeline`](./skills/maximus-ai-data-pipeline) · [`maximus-fine-tuning`](./skills/maximus-fine-tuning) · [`maximus-ai-fluency-for-builders`](./skills/maximus-ai-fluency-for-builders) · [`maximus-ai-cost-control`](./skills/maximus-ai-cost-control) · [`maximus-mlops-deploy`](./skills/maximus-mlops-deploy) · [`maximus-ai-ux-patterns`](./skills/maximus-ai-ux-patterns) · [`maximus-k3-model-selection`](./skills/maximus-k3-model-selection) — decide when Kimi K3 wins vs. Claude Fable 5 / GPT-5.6 Sol / Opus 4.8 / GLM-5.2, benchmark-cited and honest. · [`maximus-k3-self-hosting`](./skills/maximus-k3-self-hosting) — plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate. · [`maximus-chain-of-verification`](./skills/maximus-chain-of-verification) — apply factored CoVe as the final layer before delivery: draft → independent verification questions → fresh-context answers → revise, with a claim-by-claim confidence ledger. 40–60% documented hallucination reduction. · [`maximus-slm-local-stack`](./skills/maximus-slm-local-stack) — choose and deploy a 1B-14B model on hardware you own: hardware-ceiling and KV-cache VRAM math, GGUF quantization tradeoffs, runtime selection (Ollama / LM Studio / llama.cpp / MLX / vLLM), air-gapped install, and benchmark-your-own-box discipline. States the capability ceiling out loud instead of overselling local.
 
 **Writing, research, and people-finding (10)**
 - [`maximus-write-article`](./skills/maximus-write-article) — long-form articles: thought leadership + technical/build-in-public.
@@ -125,7 +125,7 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 **Film pack (5, opt-in)** — see [`packs/film/`](./packs/film) — for working filmmakers, feature-length only, no shorts, no AI slop
 - [`maximus-screenplay-format`](./packs/film/maximus-screenplay-format) · [`maximus-production-schedule`](./packs/film/maximus-production-schedule) · [`maximus-film-budget`](./packs/film/maximus-film-budget) · [`maximus-post-pipeline`](./packs/film/maximus-post-pipeline) · [`maximus-filmhub-delivery`](./packs/film/maximus-filmhub-delivery)
 
-**Total: 49 skills.**
+**Total: 50 skills.**
 
 ### Homepage sync
 
