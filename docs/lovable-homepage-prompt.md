@@ -4,7 +4,7 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 50 skills across 5 pillars + 3 opt-in packs (37 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`, 5 in `packs/film/`)
+**Total skills:** 51 skills across 5 pillars + 3 opt-in packs (38 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`, 5 in `packs/film/`)
 **Last updated:** 2026-09-20
 
 ---
@@ -12,14 +12,14 @@ Paste the block below into Lovable to update the MaximusAI homepage with the cur
 ## Copy-paste prompt for Lovable (homepage skills section)
 
 ```
-Update the MaximusAI homepage to feature the full 50-skill Maximus suite,
+Update the MaximusAI homepage to feature the full 51-skill Maximus suite,
 grouped into 5 pillars. Match the existing visual language of the site — do
 not redesign — but add or replace the "Skills" section between the hero and
 the footer.
 
 ## Section: "The Maximus Suite"
 
-Add a headline: "50 skills. 5 pillars. 3 packs. One workhorse."
+Add a headline: "51 skills. 5 pillars. 3 packs. One workhorse."
 Add a subhead: "Each skill is a self-contained instruction set an AI agent
 loads on demand. No dead weight, no hand-waving. Built for engineers,
 founders, and scientists."
@@ -48,9 +48,9 @@ Card grid, 10 cards, each with skill name and one-line description:
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
-## Pillar 3: AI Engineering (16 skills)
+## Pillar 3: AI Engineering (17 skills)
 
-Card grid, 16 cards:
+Card grid, 17 cards:
 - maximus-agent-design — Tool loops, memory, recovery, 3-tier evals.
 - maximus-prompt-engineering — Production system prompts, JSON schemas, few-shot.
 - maximus-rag-pipeline — Chunking, embeddings, hybrid search, reranking, citation grounding.
@@ -67,6 +67,7 @@ Card grid, 16 cards:
 - maximus-k3-self-hosting — Plan and execute a self-hosted K3 deployment on vLLM / SGLang / TokenSpeed with MXFP4 weights, preserved-thinking, and a license gate.
 - maximus-chain-of-verification — Apply factored CoVe as the final layer before delivery: draft → independent verification questions → fresh-context answers → revise. 40–60% documented hallucination reduction. Never labels a claim verified without independent-context confirmation. NEW.
 - maximus-slm-local-stack — Run a small language model (1B-14B) on hardware you own. Hardware-ceiling and KV-cache VRAM math, GGUF quantization tradeoffs, runtime selection across Ollama / LM Studio / llama.cpp / MLX / vLLM, air-gapped install. Honest about the capability ceiling: private and free, not frontier. NEW.
+- maximus-local-research-assistant — Build a research or study assistant on a small local model you can trust. Local RAG with local embeddings, a refusal contract tested before anything else, task decomposition that names which steps must route to a bigger model, span-level citation, verification before display. Private, offline, and honest about its range. NEW.
 
 Each card links to: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 
@@ -245,9 +246,9 @@ the nav and footer.
 
 ## SEO metadata to keep in sync
 
-- Homepage title tag: "MaximusAI — 50 skills for AI-native engineers and working filmmakers"
-- Meta description: "A suite of 50 AI agent skills across engineering, AI, research, people-finding, SEO, and feature-film production. Built for engineers, founders, scientists, and working filmmakers."
-- Open Graph title: "MaximusAI — 50 skills for AI-native engineers and working filmmakers"
+- Homepage title tag: "MaximusAI — 51 skills for AI-native engineers and working filmmakers"
+- Meta description: "A suite of 51 AI agent skills across engineering, AI, research, people-finding, SEO, and feature-film production. Built for engineers, founders, scientists, and working filmmakers."
+- Open Graph title: "MaximusAI — 51 skills for AI-native engineers and working filmmakers"
 - Open Graph description: same as meta description.
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: `SoftwareApplication` with `applicationCategory: DeveloperApplication`.
