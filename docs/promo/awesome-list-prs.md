@@ -18,19 +18,19 @@ title shown, and open the PR with the body shown.
 ### Line to add
 
 ```markdown
-- [MaximusAI](https://github.com/MacroTechTitan/MaximusAI) — 43 open-source skills for AI agents across cognitive OS, build-and-ship, AI engineering, research, and AI SEO. Model-agnostic (Claude, GPT, Gemini, Perplexity, local Llama/Qwen/K3). MIT-licensed, ungated, no signup.
+- [MaximusAI](https://github.com/MacroTechTitan/MaximusAI) — 49 open-source skills for AI agents across cognitive OS, build-and-ship, AI engineering, research, and AI SEO. Model-agnostic (Claude, GPT, Gemini, Perplexity, local Llama/Qwen/K3). MIT-licensed, ungated, no signup.
 ```
 
 ### Commit / PR title
 
 ```
-Add MaximusAI — 43 open-source skills for AI agents
+Add MaximusAI — 49 open-source skills for AI agents
 ```
 
 ### PR body
 
 ```
-Adding [MaximusAI](https://github.com/MacroTechTitan/MaximusAI), a suite of 43 open-source Agent Skills (SKILL.md format, MIT-licensed) covering:
+Adding [MaximusAI](https://github.com/MacroTechTitan/MaximusAI), a suite of 49 open-source Agent Skills (SKILL.md format, MIT-licensed) covering:
 
 - **Cognitive OS** — a think-before-act operating layer for any LLM
 - **Build & Ship** (10 skills) — feature planning, implementation, code review, debugging, testing, DevOps
@@ -54,7 +54,7 @@ Happy to move to a different section or reword — just let me know.
 ### Line to add
 
 ```markdown
-- [MaximusAI](https://github.com/MacroTechTitan/MaximusAI) — 43 model-agnostic Agent Skills spanning cognitive OS, engineering, research, and AI SEO. Ships in Claude Skills / OpenAI Assistants format. MIT.
+- [MaximusAI](https://github.com/MacroTechTitan/MaximusAI) — 49 model-agnostic Agent Skills spanning cognitive OS, engineering, research, and AI SEO. Ships in Claude Skills / OpenAI Assistants format. MIT.
 ```
 
 ### Commit / PR title
@@ -66,7 +66,7 @@ Add MaximusAI to open-source projects
 ### PR body
 
 ```
-Adding MaximusAI — 43 open-source Agent Skills that work with any model (Claude, GPT, Gemini, Perplexity, local Llama/Qwen/K3). Includes a Chain-of-Verification skill with enforced independent-context verification (reproducing the ~40–60% hallucination reduction from Dhuliawala et al. 2023), a PRISMA-style systematic literature review skill, and 10 other research/agent-shape skills.
+Adding MaximusAI — 49 open-source Agent Skills that work with any model (Claude, GPT, Gemini, Perplexity, local Llama/Qwen/K3). Includes a Chain-of-Verification skill with enforced independent-context verification (reproducing the ~40–60% hallucination reduction from Dhuliawala et al. 2023), a PRISMA-style systematic literature review skill, and 10 other research/agent-shape skills.
 
 MIT-licensed, no signup, no gate. Homepage: https://maximus.macrotechtitan.com.
 
@@ -84,19 +84,19 @@ Placed in alphabetical order under Open-source projects. Happy to move if there'
 ### Line to add
 
 ```markdown
-- [MaximusAI Skills](https://github.com/MacroTechTitan/MaximusAI) — 43 production prompt patterns encoded as Agent Skills. Includes maximus-prompt-engineering (adversarial-robust system prompts + JSON schema constraints), maximus-chain-of-verification (factored CoVe with enforced context isolation), and maximus-agent-design (tool-loop control, memory architecture, failure recovery).
+- [MaximusAI Skills](https://github.com/MacroTechTitan/MaximusAI) — 49 production prompt patterns encoded as Agent Skills. Includes maximus-prompt-engineering (adversarial-robust system prompts + JSON schema constraints), maximus-chain-of-verification (factored CoVe with enforced context isolation), and maximus-agent-design (tool-loop control, memory architecture, failure recovery).
 ```
 
 ### Commit / PR title
 
 ```
-Add MaximusAI Skills — 43 open-source prompt engineering patterns
+Add MaximusAI Skills — 49 open-source prompt engineering patterns
 ```
 
 ### PR body
 
 ```
-Adding MaximusAI Skills — an open-source library of 43 Agent Skills covering prompt engineering, adversarial robustness, JSON schema constraints, Chain-of-Verification, RAG, model selection, and more. MIT-licensed.
+Adding MaximusAI Skills — an open-source library of 49 Agent Skills covering prompt engineering, adversarial robustness, JSON schema constraints, Chain-of-Verification, RAG, model selection, and more. MIT-licensed.
 
 Particularly relevant to this list:
 - `maximus-prompt-engineering` — production system prompts, few-shot patterns, JSON schema, prompt injection defense
@@ -117,7 +117,7 @@ Homepage: https://maximus.macrotechtitan.com
 ### Line to add
 
 ```markdown
-- [MaximusAI — mlops-deploy skill](https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/maximus-mlops-deploy) — open-source MLOps runbook for canary deploys with eval comparison, drift detection (data/concept/prompt drift), automatic rollback on quality regression, and shadow traffic. Part of a 43-skill library for AI agents.
+- [MaximusAI — mlops-deploy skill](https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/maximus-mlops-deploy) — open-source MLOps runbook for canary deploys with eval comparison, drift detection (data/concept/prompt drift), automatic rollback on quality regression, and shadow traffic. Part of a 49-skill library for AI agents.
 ```
 
 ### Commit / PR title
@@ -145,19 +145,19 @@ MIT-licensed. Full repo: https://github.com/MacroTechTitan/MaximusAI
 ### Line to add
 
 ```markdown
-- [MaximusAI Skills](https://github.com/MacroTechTitan/MaximusAI) — 43 open-source Agent Skills that load into Claude in Claude Skills format. Covers cognitive OS, engineering, research, prompt engineering, RAG, and AI SEO. MIT-licensed.
+- [MaximusAI Skills](https://github.com/MacroTechTitan/MaximusAI) — 49 open-source Agent Skills that load into Claude in Claude Skills format. Covers cognitive OS, engineering, research, prompt engineering, RAG, and AI SEO. MIT-licensed.
 ```
 
 ### Commit / PR title
 
 ```
-Add MaximusAI — 43 open-source Claude Skills
+Add MaximusAI — 49 open-source Claude Skills
 ```
 
 ### PR body
 
 ```
-Adding MaximusAI, an open-source library of 43 Agent Skills written in the Claude Skills format (SKILL.md with YAML frontmatter). Works with Claude, GPT, Gemini, and Perplexity — but the format is Claude Skills native.
+Adding MaximusAI, an open-source library of 49 Agent Skills written in the Claude Skills format (SKILL.md with YAML frontmatter). Works with Claude, GPT, Gemini, and Perplexity — but the format is Claude Skills native.
 
 Includes a Cognitive OS layer (`maximus-brain`), 15 AI engineering skills, 10 research skills, 10 build/ship skills, and 7 AI SEO skills. MIT, no signup.
 
@@ -181,3 +181,64 @@ One per day. Do not submit them all in a single day — maintainers talk to each
 - Comment "thank you" on the merged PR (the maintainer sees this).
 - Watch and star the list repo (they check).
 - Do not comment on unmerged PRs to nudge them — wait at least 2 weeks.
+
+---
+
+## PR 6: awesome-screenwriting (community lists)
+
+**Target:** Search for `awesome-screenwriting` / `awesome-filmmaking` on GitHub; the community list churn means the top result changes. As of 2026 the most active is [`awesome-screenwriting-tools`](https://github.com/topics/screenwriting) topic-search results. Pick the list with the highest star count and most recent commit.
+
+### Line to add
+
+```markdown
+- [MaximusAI — Film Pack](https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/film) — 5-skill open-source pack for working feature-film crews. Console-first Fountain screenplay authoring with industry-standard PDF and Final Draft .fdx output, locked-script-to-stripboard scheduling, AICP-account-code budget templating, dailies-through-DCP post pipeline, and Filmhub delivery-master validation. Feature-length only; explicitly refuses generative video and AI slop. MIT.
+```
+
+### Commit / PR title
+
+```
+Add MaximusAI Film Pack — 5 open-source skills for working filmmakers
+```
+
+### PR body
+
+```
+Adding the Film Pack from MaximusAI — a 5-skill open-source toolkit for feature-film crews.
+
+The pack explicitly refuses generative video, voice cloning, and synthetic actors. Every skill formats, validates, schedules, budgets, or delivers work the filmmakers actually did:
+
+- maximus-screenplay-format — Fountain plain-text → industry-standard PDF (Courier Prime 12pt, 1.5" margin) + Final Draft .fdx
+- maximus-production-schedule — Locked Fountain → stripboard, one-liner, day-out-of-days
+- maximus-film-budget — AICP/AMPTP account codes (1000-4700), CSV round-trip with Movie Magic Budgeting
+- maximus-post-pipeline — Dailies through DCP with per-buyer deliverables matrix
+- maximus-filmhub-delivery — FFprobe-first delivery-master validation with WSP/OBA compliance flag for FINRA-registered filmmakers
+
+MIT-licensed, no signup, no gate. Homepage: https://maximus.macrotechtitan.com
+
+Happy to move to a different section or reword.
+```
+
+---
+
+## Reddit posts for the film audience
+
+Two full-length Reddit posts specifically for working filmmakers live in `launch-bundle.md`:
+
+- **r/Filmmakers** — `launch-bundle.md` Asset 3
+- **r/Cinematography** — `launch-bundle.md` Asset 4
+
+Post on launch day at 9:05 and 9:10 AM PT (staggered 5 minutes apart to avoid Reddit's self-promo cross-sub burst filter).
+
+---
+
+## Submission order and pacing (updated for 8 total)
+
+- **Launch day (Tue/Wed AM):** all 4 launch-morning posts (HN + LocalLLaMA + Filmmakers + Cinematography), plus LinkedIn + X
+- **Day 2:** PR 1 (awesome-llm-apps) — highest traffic
+- **Day 3:** PR 2 (awesome-ai-agents)
+- **Day 4:** PR 3 (Awesome-Prompt-Engineering)
+- **Day 5:** PR 4 (awesome-mlops)
+- **Day 6:** PR 5 (awesome-claude-prompts)
+- **Day 7:** PR 6 (awesome-screenwriting / film community list)
+
+One per day. Do not batch. Maintainers talk to each other and rapid-fire submissions read as list-farming.
