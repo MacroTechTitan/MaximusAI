@@ -5,8 +5,8 @@ its blocks into Lovable.
 
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
-**Total skills:** 51 across 5 pillars + 3 opt-in packs (38 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`, 5 in `packs/film/`)
-**Last updated:** 2026-09-22
+**Total skills:** 57 across 4 pillars + 4 opt-in packs (43 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`, 5 in `packs/film/`, 1 in `packs/privsec/`)
+**Last updated:** 2026-09-30
 
 ## How to use this file
 
@@ -30,22 +30,24 @@ file.
 ## Block 1 — homepage
 
 ```
-Update the MaximusAI homepage to feature the full 51-skill Maximus suite across
-5 pillars and 3 opt-in packs. Match the existing visual language exactly — do
+Update the MaximusAI homepage to feature the full 57-skill Maximus suite across
+4 pillars and 4 opt-in packs. Match the existing visual language exactly — do
 not redesign, do not introduce new fonts, colors, gradients, or layouts. This
 prompt describes the desired end state of the page; bring the page to it.
 
 ## Counts, headline, and SEO
 
-- Suite headline: "51 skills. 5 pillars. 3 packs. One workhorse."
+- Suite headline: "57 skills. 4 pillars. 4 packs. One workhorse."
 - Subhead: "Each skill is a self-contained instruction set an AI agent loads on
   demand. No dead weight, no hand-waving. Built for engineers, founders,
   scientists, and working filmmakers."
-- Update every hero, nav, badge, and footer instance of the skill count to 51.
-- Title tag and Open Graph title: "MaximusAI — 51 skills for AI-native engineers
+- Update every hero, nav, badge, and footer instance of the skill count to 57. The
+  current page reads 55, which is wrong; the correct number is 57.
+- Title tag and Open Graph title: "MaximusAI — 57 skills for AI-native engineers
   and working filmmakers"
-- Meta and Open Graph description: "A suite of 51 AI agent skills across
-  engineering, AI, research, people-finding, SEO, and feature-film production.
+- Meta and Open Graph description: "A suite of 57 AI agent skills across
+  engineering, AI, local models, research, people-finding, SEO, private
+  securities, and feature-film production.
   Built for engineers, founders, scientists, and working filmmakers."
 - Canonical: https://maximus.macrotechtitan.com/
 - Schema.org: SoftwareApplication with applicationCategory DeveloperApplication.
@@ -71,7 +73,7 @@ Those are dated records.
 - maximus-python-scientific — Reproducible pipelines: pinned deps, fixed seeds.
 - maximus-replit-handoff-pro — Production handoffs between Computer and Replit Agent.
 
-## Pillar 3: AI Engineering (17 skills)
+## Pillar 3: AI Engineering (22 skills)
 
 - maximus-agent-design — Tool loops, memory, recovery, 3-tier evals.
 - maximus-prompt-engineering — Production system prompts, JSON schemas, few-shot.
@@ -105,6 +107,22 @@ Those are dated records.
   contract tested before anything else, task decomposition that names which steps
   must route to a bigger model, span-level citation, verification before display.
   Private, offline, and honest about its range.
+- maximus-openclaw-local — Run OpenClaw and Maximus on a local model so the
+  agent actually sees its own prompt. Current config schema, the 64K context
+  floor, setting context where it takes effect, and a check that proves nothing
+  is being silently truncated.
+- maximus-ollama-ops — Operate Ollama as a service, not a demo. Modelfiles,
+  context and KV-cache sizing under concurrency, server settings, GGUF import
+  with template checks, native vs OpenAI-compatible API, structured outputs.
+- maximus-slm-tool-calling — Make small models call tools and emit JSON
+  reliably. Native templates, grammar-constrained decoding, a smaller tool
+  surface, one tool per step, and a measured failure rate instead of a lucky run.
+- maximus-slm-eval — Evaluate local models and quants on your own tasks and
+  hardware: promptfoo side by side, lm-eval-harness for quant degradation,
+  llama-bench at real context depth, and a decision memo.
+- maximus-slm-local-finetune — Fine-tune on hardware you own and ship it to
+  Ollama: LoRA/QLoRA with Unsloth or MLX, eval against the base model, GGUF
+  export, and the chat template kept intact. Earns the fine-tune first.
 
 ## Pillar 4: Writing, Research & People-Finding (10 skills)
 
@@ -133,7 +151,7 @@ Those are dated records.
   chronology, reconciles numbers, separates facts from allegations. Never fills
   factual gaps with outside knowledge.
 
-## Pillar 5: AI SEO Pack (7 skills, opt-in)
+## AI SEO Pack (7 skills, opt-in)
 
 Headline: "AI SEO Pack — opt-in"
 Subhead: "Get cited by ChatGPT, Perplexity, Google AI Overviews, and Copilot.
@@ -187,19 +205,37 @@ codes, DCP, Rec.709/ACES."
   delivery masters. FFprobe-first, remux-don't-re-encode, attached-thumbnail
   cleanup, WSP/OBA compliance flag.
 
+## Private Securities Pack (1 skill, opt-in)
+
+Directly below the Film Pack, same opt-in pack styling. Keep the existing
+section as it is.
+
+Headline: "Private Securities Pack — opt-in"
+Subhead: "Private-securities sourcing. Assembles public funding data, enriches
+contacts, and drafts outreach. Off by default, and it never sends anything on its
+own — the human approves every message."
+
+- find-shareholders — Given a company, find its shareholders and investors from
+  public funding data, enrich contacts through a connected provider, log them to
+  a store you choose, and queue personalized outreach for approval.
+
 ## Card links
 
 - Core skills: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
 - AI SEO Pack: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/ai-seo/<skill-name>
 - Dev Workflow Pack: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/devops/skills/<skill-name>
 - Film Pack: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/film/<skill-name>
+- Private Securities Pack: https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/privsec/skills/<skill-name>
 
 ## NEW badges — exhaustive
 
-After this update, exactly two cards on the entire page carry a NEW badge:
+After this update, exactly five cards on the entire page carry a NEW badge:
 
-1. maximus-slm-local-stack
-2. maximus-local-research-assistant
+1. maximus-openclaw-local
+2. maximus-ollama-ops
+3. maximus-slm-tool-calling
+4. maximus-slm-eval
+5. maximus-slm-local-finetune
 
 Every other card has no NEW badge. Remove any NEW badge not on that list.
 
@@ -208,7 +244,7 @@ Every other card has no NEW badge. Remove any NEW badge not on that list.
 Full-width CTA below the pillars:
 - Headline: "Try the workhorse."
 - Buttons: "Open the repo" → https://github.com/MacroTechTitan/MaximusAI
-  and "Read the latest post" → /blog/slm-local-skills
+  and "Read the latest post" → /blog/local-model-skills
 
 "Blog" appears in the main nav (the page itself comes from the second prompt).
 
@@ -232,9 +268,19 @@ state; bring the site to it.
 Route: /blog
 Layout: list of posts with title, date, and one-line excerpt, newest first.
 
-Eight posts:
+Nine posts:
 
-1. Title: "Maximus grows to 51 — hallucination is usually an architecture bug"
+1. Title: "Maximus grows to 57 — your local model isn't reading the manual"
+   Date: 2026-09-30
+   Excerpt: "Five skills for running Maximus on open-source local models:
+   OpenClaw on Ollama, Ollama operations, reliable tool calling from small
+   models, evaluation on your own tasks, and local fine-tuning. The finding
+   behind them: on most consumer machines, the default setup silently cut off
+   most of Maximus's own prompt. Suite now at 57 skills."
+   Route: /blog/local-model-skills
+   Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-30-local-model-skills.md
+
+2. Title: "Maximus grows to 51 — hallucination is usually an architecture bug"
    Date: 2026-09-22
    Excerpt: "Two skills for small local models: maximus-slm-local-stack for
    hardware, KV-cache VRAM math, quantization and runtime, and
@@ -244,7 +290,7 @@ Eight posts:
    Route: /blog/slm-local-skills
    Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-22-slm-local-skills.md
 
-2. Title: "Maximus grows to 49 — the Film Pack, for working filmmakers"
+3. Title: "Maximus grows to 49 — the Film Pack, for working filmmakers"
    Date: 2026-09-20
    Excerpt: "Five opt-in skills for people who make films with cameras, cast,
    and a call sheet: Fountain screenplay formatting to industry-standard PDF and
@@ -254,7 +300,7 @@ Eight posts:
    Route: /blog/film-pack-launch
    Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-20-film-pack-launch.md
 
-3. Title: "Maximus grows to 44 — the approval treadmill"
+4. Title: "Maximus grows to 44 — the approval treadmill"
    Date: 2026-09-15
    Excerpt: "mtt-claude-cursor — the operating model for development driven by
    Claude Code inside Cursor. Pre-authorizes routine reversible in-repo work,
@@ -264,7 +310,7 @@ Eight posts:
    Route: /blog/mtt-claude-cursor
    Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-09-15-mtt-claude-cursor.md
 
-4. Title: "Maximus grows to 43 — adding the Transaction Analyst"
+5. Title: "Maximus grows to 43 — adding the Transaction Analyst"
    Date: 2026-08-13
    Excerpt: "maximus-transaction-analyst — turn a dense deal folder (emails,
    term sheets, closing docs, wires) into a two-page executive transaction memo.
@@ -273,7 +319,7 @@ Eight posts:
    Route: /blog/transaction-analyst
    Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-13-transaction-analyst.md
 
-5. Title: "Three skills that make Maximus research like a person"
+6. Title: "Three skills that make Maximus research like a person"
    Date: 2026-08-12
    Excerpt: "maximus-chain-of-verification, maximus-investigative-research, and
    maximus-literature-review — the reasoning-quality layer, the reporter's
@@ -281,7 +327,7 @@ Eight posts:
    Route: /blog/reasoning-and-research-skills
    Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-08-12-reasoning-and-research-skills.md
 
-6. Title: "Two Kimi K3 skills join Maximus"
+7. Title: "Two Kimi K3 skills join Maximus"
    Date: 2026-07-29
    Excerpt: "maximus-k3-model-selection and maximus-k3-self-hosting — pick the
    right frontier model when K3 is on the shortlist, and run K3 on your own GPUs
@@ -289,7 +335,7 @@ Eight posts:
    Route: /blog/kimi-k3-skills
    Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-29-kimi-k3-skills.md
 
-7. Title: "Maximus grows to 37 — adding Contact Intelligence"
+8. Title: "Maximus grows to 37 — adding Contact Intelligence"
    Date: 2026-07-23
    Excerpt: "A new skill for finding professional business emails from a
    LinkedIn URL — with pattern discovery, verification, and honest confidence
@@ -297,7 +343,7 @@ Eight posts:
    Route: /blog/contact-intelligence
    Source: https://raw.githubusercontent.com/MacroTechTitan/MaximusAI/main/blog/2026-07-23-contact-intelligence.md
 
-8. Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
+9. Title: "Introducing the Maximus Suite — 36 skills for AI-native engineers"
    Date: 2026-07-20
    Excerpt: "36 skills. 5 pillars. One workhorse. The full suite for engineers,
    founders, and scientists building with AI — from cognitive OS to AI SEO."
@@ -306,7 +352,7 @@ Eight posts:
 
 ## Post pages
 
-A page at each of the eight routes above, fetching content from that post's
+A page at each of the nine routes above, fetching content from that post's
 Source Markdown URL, rendered as a long-form article with:
 
 - Article title as H1
@@ -330,11 +376,14 @@ contrast and keyboard navigation.
 
 ## After pasting — verify
 
-1. Headline reads 51; no stray older count outside blog excerpts.
-2. Pillar 3 shows 17 cards, Pillar 4 shows 10.
-3. Exactly two NEW badges on the whole page.
-4. Both pack sections use the AI SEO Pack's opt-in styling, not a new design.
-5. `/blog` lists eight posts and every post route renders.
+1. Headline reads 57; no stray older count (including 55) outside blog excerpts.
+2. Pillar 3 shows 22 cards, Pillar 4 shows 10.
+3. Exactly five NEW badges on the whole page.
+4. All four pack sections use the same opt-in styling, not a new design.
+5. `/blog` lists nine posts and every post route renders.
+
+Check the raw HTML, not only a fetch or preview service. On 2026-09-30 a fetch
+service returned a stale 42-skill copy while the live HTML was already current.
 
 Record the paste date in the changelog below. A release is not shipped until the
 site shows it.
@@ -347,19 +396,23 @@ Newest first. The blocks above always reflect the newest row.
 
 | Date | Total | Change | Pasted to site |
 |---|---|---|---|
-| 2026-09-22 | 51 | `maximus-slm-local-stack` + `maximus-local-research-assistant` (Pillar 3 → 17), blog post #8 | pending |
-| 2026-09-20 | 49 | Film Pack (5 skills, opt-in), blog post #7 | not confirmed |
-| 2026-09-15 | 44 | `mtt-claude-cursor` (Dev Workflow Pack), blog post #6 | not confirmed |
-| 2026-08-13 | 43 | `maximus-transaction-analyst` (Pillar 4 → 10), blog post #5 | not confirmed |
+| 2026-09-30 | 57 | Five local-model skills (Pillar 3 → 22); Private Securities Pack counted (+1); AI SEO reframed as a pack (4 pillars, 4 packs); all descriptions trimmed; blog post #9 | pending |
+| 2026-09-22 | 51 | `maximus-slm-local-stack` + `maximus-local-research-assistant` (Pillar 3 → 17), blog post #8 | yes — confirmed 2026-09-30 (headline miscounted as 55) |
+| 2026-09-20 | 49 | Film Pack (5 skills, opt-in), blog post #7 | yes — confirmed 2026-09-30 |
+| 2026-09-15 | 44 | `mtt-claude-cursor` (Dev Workflow Pack), blog post #6 | yes — confirmed 2026-09-30 |
+| 2026-08-13 | 43 | `maximus-transaction-analyst` (Pillar 4 → 10), blog post #5 | yes — confirmed 2026-09-30 |
 | 2026-08-12 | 42 | CoVe + investigative-research + literature-review | yes |
 | 2026-07-29 | 39 | Two Kimi K3 skills | yes |
 | 2026-07-23 | 37 | `maximus-contact-intelligence` | yes |
 | 2026-07-20 | 36 | Launch | yes |
 
-**Known drift as of 2026-09-22:** a fetch of the live site showed "42 skills",
-Writing/Research at 9, no Dev Workflow Pack, no Film Pack, and no blog page —
-meaning four releases in the repo had not reached the site. Pasting both blocks
-above closes all four at once. Check the site rather than trusting this table.
+**Site state as of 2026-09-30 (raw HTML):** all 51 skills from the 2026-09-22
+release, the correct two NEW badges, all four packs, and all eight posts. One
+error: the headline read "55 skills. 4 pillars. 4 packs." The page showed 52
+skills, because Lovable added the Private Securities Pack, which the repo had
+never counted. Lovable's 4-pillars/4-packs framing matches the repo layout and
+is kept. The 55 is corrected by the 57 release above. Check the site rather
+than trusting this table.
 
 ---
 
