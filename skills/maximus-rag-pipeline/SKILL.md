@@ -1,6 +1,6 @@
 ---
 name: maximus-rag-pipeline
-description: "Production retrieval-augmented generation: chunking, embeddings, vector database selection (pgvector, Pinecone, Qdrant, Weaviate, Chroma), hybrid search (BM25 + dense), reranking, citation grounding, and the evaluation loop. Use when the user says 'build a RAG system', 'add document search', 'connect the LLM to our knowledge base', 'citations from documents', 'retrieval pipeline', 'semantic search over docs', or any task involving making an LLM answer questions from a corpus. Production-grade, not a demo."
+description: "Production RAG: chunking, embeddings, vector DB choice (pgvector, Qdrant, Pinecone, Weaviate, Chroma), hybrid BM25+dense search, reranking, citation grounding, and an eval loop. Use for 'build a RAG system', 'document search', 'connect the LLM to our knowledge base', 'semantic search over docs'."
 metadata:
   pillar: ai-engineering
   source: maximus

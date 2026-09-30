@@ -1,6 +1,6 @@
 ---
 name: maximus-llm-model-selection
-description: "Pick the right LLM for production: capability tiers (frontier vs mid vs small), cost vs latency vs quality tradeoffs, when to use local/open-source (Llama, Qwen, Mistral), routing strategies, fallback chains, A/B harness, and deprecation handling. Use when the user says 'which model should I use', 'too expensive', 'too slow', 'should I use open source', 'model routing', 'fallback if rate limited', 'model upgrade', 'A/B test models', or any task requiring a deliberate model choice or cost optimisation. Based on mid-2026 pricing and capabilities."
+description: "Pick the right LLM for production: capability tiers, cost/latency/quality tradeoffs, open-source vs API, routing, fallback chains, A/B harness, deprecations. Use for 'which model should I use', 'too expensive', 'too slow', 'model routing', 'fallback if rate limited'. Local SLMs: maximus-slm-local-stack."
 metadata:
   pillar: ai-engineering
   source: maximus

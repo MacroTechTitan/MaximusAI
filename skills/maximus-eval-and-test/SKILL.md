@@ -1,6 +1,6 @@
 ---
 name: maximus-eval-and-test
-description: "Design the test and evaluation strategy for a project or feature \u2014 unit, integration, end-to-end, and (for AI features) the three-tier eval pyramid of PR checks, nightly LLM-as-judge regression, and production canary monitoring. Use when starting a new project, when the user asks to 'add tests', 'set up CI', 'design eval', 'measure quality', or 'evaluate the agent', or before shipping any AI-powered feature to production. Covers Python (pytest), JavaScript/TypeScript (vitest, jest, playwright), and Go (testing). For AI evals covers tool-call regression, LLM-as-judge, and error-budget canaries."
+description: "Test and eval strategy for a project: unit, integration, e2e, and for AI features the PR / nightly LLM-judge / production-canary pyramid. Use for 'add tests', 'set up CI', 'design eval', 'measure quality', 'evaluate the agent'. Comparing local models: maximus-slm-eval."
 metadata:
   pillar: inspection
   source: maximus

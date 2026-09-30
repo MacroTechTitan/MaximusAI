@@ -1,6 +1,6 @@
 ---
 name: maximus-ai-ux-patterns
-description: "UX patterns for AI-powered product features. Use when designing streaming output, source attribution with clickable citations, confidence display, guardrail messaging, retry/edit/undo interactions, input affordances (chat vs form vs hybrid), or error states (rate limit, model down, content filter). Grounded in real product patterns from ChatGPT, Claude, Perplexity, Cursor, and GitHub Copilot."
+description: "UX patterns for AI features: streaming, clickable citations, confidence display, guardrail messaging, retry/edit/undo, chat vs form input, and error states (rate limit, model down, content filter). Use for 'AI UX', 'design the chat UI', 'show sources', 'AI error states'."
 metadata:
   pillar: ai-engineering
   source: maximus

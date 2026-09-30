@@ -1,6 +1,6 @@
 ---
 name: maximus-k3-model-selection
-description: Decide when Kimi K3 (Moonshot AI's 2.8T open-weight MoE, 104B active, 1M context, MXFP4 native, preserved-thinking) is the right model to pick versus Claude Fable 5, Claude Opus 4.8, GPT-5.6 Sol, GPT-5.5, or GLM-5.2. Load when the user is choosing a model for a specific task, comparing frontier models, budgeting a build, evaluating open-weight vs closed, weighing self-hosting vs hosted API, or asking a "which model should I use" question. Uses only published benchmark data with source URLs, respects the K3 license terms, and never invents scores. Does not cover implementation, deployment, or prompt design — use maximus-k3-self-hosting for deployment and the standard AI Engineering skills for integration. Refuses to recommend K3 when task fit is genuinely worse; a workhorse honest answer beats a partisan one. Every recommendation ships with the specific benchmarks that drove it, the harness those benchmarks used, and the date the numbers were pulled.
+description: "Decide whether Kimi K3 (open-weight 2.8T MoE) is the right pick versus current frontier models for a specific task, using only published, dated benchmarks with sources. Refuses when fit is worse. Use for 'should I use K3', 'K3 vs', 'open-weight vs closed', 'which frontier model'."
 ---
 
 # WHEN TO USE

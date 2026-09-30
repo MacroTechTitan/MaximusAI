@@ -1,6 +1,6 @@
 ---
 name: maximus-replit-handoff-pro
-description: "Generate a production-grade Replit Agent handoff for work built in Perplexity Computer. Use when the user says 'hand off to Replit', 'generate the Replit prompt', 'sync to Replit', 'paste into Replit Agent', or wants to transfer a feature from Computer to Replit. Goes beyond a basic prompt: includes git SHA + branch, exact dependency commands, environment variables required (with which scope), Vercel/Stripe-aware integration checks, smoke-test verification, and a rollback note. Produces a Markdown document Replit Agent can consume end-to-end."
+description: "Production-grade Replit Agent handoff for work built in Perplexity Computer: git SHA and branch, dependency commands, scoped env vars, Vercel/Stripe checks, smoke tests, rollback note. Use for 'hand off to Replit', 'generate the Replit prompt', 'sync to Replit', 'paste into Replit Agent'."
 metadata:
   pillar: deployment
   source: maximus

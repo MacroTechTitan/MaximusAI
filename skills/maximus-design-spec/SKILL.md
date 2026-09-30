@@ -1,6 +1,6 @@
 ---
 name: maximus-design-spec
-description: "Write a software design specification before code. Use when starting any non-trivial feature, system, or refactor that crosses module boundaries, when the user asks for a spec, design doc, technical design, architecture document, or RFC, or before handing work off to another engineer or agent. Translates requirements into an implementable architecture with module decomposition, data models, interfaces, non-functional constraints, and design rationale. Skip for one-file scripts and tight bug fixes."
+description: "Write a software design spec before code: module decomposition, data models, interfaces, non-functional constraints, rationale. Use for 'spec', 'design doc', 'technical design', 'architecture document', 'RFC', or before handing work to another engineer or agent. Skip for one-file scripts."
 metadata:
   pillar: planning
   source: maximus

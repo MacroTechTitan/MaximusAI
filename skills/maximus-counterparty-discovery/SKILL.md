@@ -1,6 +1,6 @@
 ---
 name: maximus-counterparty-discovery
-description: Discover, verify, score, and export potential counterparties from a natural-language description. Use for investor, allocator, buyer, seller, lender, strategic partner, acquisition target, vendor, expert, or other counterparty searches that require deep public-web research, social and forum discovery, regulatory filings, litigation records, transaction signals, source-by-source evidence, and an auditable export. Includes a managed-futures CTA example with a $100,000 minimum, but never bundles or reuses sample prospect data.
+description: "Discover, verify, score, and export potential counterparties (investors, allocators, buyers, lenders, partners, targets, vendors) from a plain-language brief, using public web, filings, litigation, and transaction signals with per-row evidence. Use for 'find investors/buyers/lenders for', 'counterparty search', 'target list'."
 ---
 
 # Maximus Counterparty Discovery

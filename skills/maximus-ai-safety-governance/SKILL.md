@@ -1,6 +1,6 @@
 ---
 name: maximus-ai-safety-governance
-description: "Responsible AI controls for production systems. Use when building or auditing AI features that must detect and redact PII, defend against prompt injection, filter output content, produce immutable audit logs, write model cards, evaluate for bias and toxicity, or comply with EU AI Act risk tiers or NIST AI RMF. Trigger phrases: 'prompt injection defense', 'PII redaction', 'AI audit log', 'model card', 'EU AI Act compliance', 'NIST AI RMF', 'responsible AI controls', 'content filtering', 'bias evaluation', 'AI governance'."
+description: "Responsible-AI controls in production: PII redaction, prompt-injection defense, output filtering, immutable audit logs, model cards, bias evals, EU AI Act and NIST AI RMF. Use for 'prompt injection defense', 'PII redaction', 'AI audit log', 'model card', 'AI governance'."
 metadata:
   pillar: ai-engineering
   source: maximus

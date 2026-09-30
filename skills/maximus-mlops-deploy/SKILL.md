@@ -1,6 +1,6 @@
 ---
 name: maximus-mlops-deploy
-description: "Deploy and operate ML/LLM systems in production. Use when registering a model, running a canary deploy with eval comparison, setting up drift detection (data drift, concept drift, prompt drift), wiring automatic rollback on quality regression, or running shadow traffic against a new prompt version. Sibling to maximus-devops-ship; focused specifically on model lifecycle, not general application deployment."
+description: "Operate ML/LLM models in production: registry, canary with eval comparison, data/concept/prompt drift detection, automatic rollback on quality regression, shadow traffic for new prompts. Use for 'deploy a model', 'model canary', 'drift detection', 'rollback on regression'."
 metadata:
   pillar: ai-engineering
   source: maximus

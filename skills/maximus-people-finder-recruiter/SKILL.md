@@ -1,6 +1,6 @@
 ---
 name: maximus-people-finder-recruiter
-description: "Deep multi-step recruiter agent for sourcing named candidates or role profiles across DevOps agencies, software dev shops, IT outsourcing firms, MSPs, technical staffing agencies, and general engineering/product/design/data employers of any type. Runs an 8-step intake-to-slate loop instead of a single-shot search. Triggers: 'find candidates for', 'source engineers for', 'find a senior X at Y', 'passive candidate search', 'boolean search LinkedIn', 'intake for role', 'recruiter deep dive', 'source for open role', 'find candidates matching brief'. Produces a verified, outreach-ready CSV slate with evidence and sourced-from URLs for every row."
+description: "Recruiter sourcing loop for named candidates or role profiles at agencies, dev shops, MSPs, and engineering employers, producing an outreach-ready CSV slate with evidence URLs per row. Use for 'find candidates for', 'source engineers', 'passive candidate search', 'boolean search LinkedIn', 'intake for role'."
 metadata:
   pillar: research
   source: maximus

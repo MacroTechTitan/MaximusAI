@@ -1,6 +1,6 @@
 ---
 name: maximus-chain-of-verification
-description: Apply Chain-of-Verification (CoVe) to any draft answer, research report, or synthesis to catch and fix hallucinated claims before delivery. Published research shows 40–60% hallucination reduction versus direct-answer generation. Load when the user asks to "fact-check," "verify," "reduce hallucinations," "double-check the claims," "grade the confidence," or "produce a verified report." Runs a 4-phase loop — draft → generate independent verification questions → answer each in isolation without the draft in context → revise — and outputs a claim-by-claim confidence ledger with revised text. Works on top of any Maximus research skill (deep-research, deep-research-pro, investigative-research, literature-review) or standalone drafts. Never labels a claim "verified" without independent-context confirmation. Never invents a source URL. Every removed claim keeps a "why removed" note.
+description: "Chain-of-Verification on a draft: generate independent check questions, answer each without the draft in context, revise, and output a claim-by-claim confidence ledger. Never invents sources. Use for 'fact-check', 'verify', 'reduce hallucinations', 'double-check the claims', 'verified report'."
 ---
 
 # WHEN TO USE

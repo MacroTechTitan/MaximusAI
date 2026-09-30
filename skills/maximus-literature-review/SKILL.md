@@ -1,6 +1,6 @@
 ---
 name: maximus-literature-review
-description: Systematic literature review the way a researcher trained in evidence synthesis would do it — PRISMA-style flow, explicit inclusion/exclusion criteria, quality appraisal, grade-of-evidence tags, and a paper-level extraction table. Load when the user says "literature review," "lit review," "systematic review," "state of the field on X," "synthesize the research on Y," "what does the peer-reviewed evidence say," or "review the academic literature." Runs a 7-phase workflow — Scope + PICO/PECO → Search protocol → Screening → Extraction table → Quality appraisal → Synthesis with confidence grading → Report. Distinguishes peer-reviewed evidence from preprints and grey literature. Grades confidence per finding, not per paper. Names what the literature does not answer. Distinct from maximus-deep-research (web-scale aggregation) and maximus-investigative-research (narrative reconstruction).
+description: "Systematic literature review: PICO scope, search protocol, PRISMA-style screening, extraction table, quality appraisal, and per-finding confidence grades; separates peer-reviewed from preprints. Use for 'literature review', 'systematic review', 'state of the field', 'what does the peer-reviewed evidence say'."
 ---
 
 # WHEN TO USE

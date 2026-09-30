@@ -1,6 +1,6 @@
 ---
 name: maximus-ai-cost-control
-description: "Token economics and cost management for AI products. Use when designing the cost architecture of an AI feature, auditing a surprise billing spike, setting up prompt caching, routing requests to cheaper models, compressing context, or defining $/request and $/user budgets before scaling. The skill that determines whether an AI product is a business or a burn rate."
+description: "Token economics for AI products: cost architecture, billing-spike audits, prompt caching, cheaper-model routing, context compression, $/request and $/user budgets. Use for 'AI costs', 'token spend', 'too expensive', 'prompt caching', 'cost per request'."
 metadata:
   pillar: ai-engineering
   source: maximus

@@ -1,6 +1,6 @@
 ---
 name: maximus-contact-intelligence
-description: Identify the most likely professional business email for a person from a LinkedIn URL or equivalent identity data, with provenance, verification, and confidence scoring. WHEN TO USE. Work/corporate/professional/verified/contact email lookups; enriching CRM, sales, recruiting, investor, journalist, or partner lists; company email-pattern discovery. WHEN NOT TO USE. Finding a person from scratch (use maximus-people-finder or maximus-people-finder-recruiter). Personal, residential, or family contact data. Counterparty diligence exports (use maximus-counterparty-discovery). Any attempt to defeat access controls, CAPTCHAs, robots, or auth, or to use breached data. Returns a structured PROFESSIONAL EMAIL RESULT with best email, status, confidence 0-100, domain, pattern evidence, verification, sources, warnings, and alternatives. Never presents guesses as verified. Never sends test emails. Never labels catch-all as verified. Respects suppression and opt-out records.
+description: "Find the most likely professional work email for a person from a LinkedIn URL or identity data, with provenance, verification status, and a 0-100 confidence score. Never presents guesses as verified or uses breached data. Use for 'work email for', 'enrich contacts', 'company email pattern'. Finding the person first: maximus-people-finder."
 license: proprietary
 ---
 

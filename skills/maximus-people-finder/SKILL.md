@@ -1,6 +1,6 @@
 ---
 name: maximus-people-finder
-description: "Deep multi-step agent for locating people or shortlists outside DevOps-agency recruiting — investors, journalists, partners, potential hires, subject matter experts, decision-makers at target companies, board members, advisors, and alumni networks. Runs a named 7-step loop (Intake, Query Expansion, Multi-Channel Search, Enrichment, Deduplication, Ranking, Verification/Delivery) rather than a single search. Triggers: 'find this person', 'find investors who', 'find journalists covering', 'find partners for', 'find experts in', 'who at company X does Y', 'find decision makers at', 'find board members'. Use for fundraising, PR/comms, BD/partnerships, advisory building, event/podcast booking, alumni mining. Do NOT use for DevOps/software agency recruiting — that goes to `recruiter-deep-find`. Do NOT use for generic company research with no person-level output — use `maximus-deep-research` instead."
+description: "Find people and shortlists outside recruiting (investors, journalists, partners, experts, decision-makers, board members, alumni) with a 7-step search, enrich, dedupe, rank, and verify loop. Use for 'find this person', 'find investors who', 'find journalists covering', 'who at company X does Y'."
 metadata:
   pillar: research
   source: maximus
