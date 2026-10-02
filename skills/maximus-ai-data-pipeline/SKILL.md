@@ -1,6 +1,6 @@
 ---
 name: maximus-ai-data-pipeline
-description: "Data preparation for AI systems: dataset curation, labeling discipline, synthetic data generation, quality gates, data versioning with DVC or LakeFS, train/val/test isolation, leakage prevention, dataset cards, and deletion/right-to-be-forgotten compliance. Use when building or auditing training data pipelines for ML models — distinct from generic ETL or analytics engineering. Trigger phrases: 'build a training dataset', 'labeling guidelines', 'inter-rater agreement', 'synthetic data', 'data versioning', 'DVC', 'train test split', 'leakage prevention', 'dataset card', 'GDPR deletion training data'."
+description: "Training-data pipelines for ML: curation, labeling guidelines, synthetic data, quality gates, DVC/LakeFS versioning, split isolation, leakage prevention, dataset cards, deletion compliance. Use for 'build a training dataset', 'labeling', 'synthetic data', 'train test split', 'dataset card'."
 metadata:
   pillar: ai-engineering
   source: maximus

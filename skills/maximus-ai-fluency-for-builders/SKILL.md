@@ -1,6 +1,6 @@
 ---
 name: maximus-ai-fluency-for-builders
-description: "The meta-skill for using AI well on real tasks. Use when deciding whether to delegate a task to AI, composing a request that gets a useful answer, validating AI output without re-doing the work, or choosing between Computer, Claude, Perplexity search, and other tools. Covers delegation heuristics, prompt patterns for planning/research/drafting/code review/copy, and output validation. The fluency layer that makes every other skill faster."
+description: "Use AI well on real tasks: when to delegate, how to ask so the answer is useful, how to validate output without redoing the work, and which tool to pick. Use for 'should I use AI for this', 'better prompt for planning/research/drafting', 'check this AI output'."
 metadata:
   pillar: ai-engineering
   source: maximus

@@ -1,6 +1,6 @@
 ---
 name: maximus-code-review
-description: "Review a diff, PR, or file for correctness, security, performance, and style. Use when the user asks to review, audit, critique, look over, check, sanity-check, scrub, or red-team code; when an open pull request needs feedback; or before merging or shipping. Produces severity-tagged findings (critical / warning / nit) with specific line references and suggested fixes. Covers Python, JavaScript/TypeScript, Go, SQL, and infrastructure code. Does not silently rewrite \u2014 the author edits."
+description: "Review a diff, PR, or file for correctness, security, performance, and style, with severity-tagged findings (critical/warning/nit), line references, and suggested fixes. Does not silently rewrite. Use for 'review', 'audit this code', 'sanity-check', 'red-team', or before merging."
 metadata:
   pillar: inspection
   source: maximus

@@ -1,6 +1,6 @@
 ---
 name: maximus-deep-research
-description: "Run production-grade multi-source deep research and competitive/market intelligence with cite-or-cut discipline. Use when the user says 'deep research', 'research this thoroughly', 'competitive intel', 'market landscape', 'due diligence lite', 'compare vendors', 'synthesize sources', or 'research report'. Covers two modes: Synthesis (fan out across many sources to answer a complex question) and Competitive Intel (map a market or vendor set into a decision-grade brief). Enforces fan-out-before-narrowing, cross-verification of any load-bearing number, and full inline citation."
+description: "Multi-source deep research and competitive/market intelligence with cite-or-cut discipline, fan-out before narrowing, and cross-verified numbers. Use for 'deep research', 'research this thoroughly', 'competitive intel', 'market landscape', 'compare vendors', 'research report'."
 metadata:
   pillar: research
   source: maximus

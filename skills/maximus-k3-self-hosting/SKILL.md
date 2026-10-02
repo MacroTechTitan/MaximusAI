@@ -1,6 +1,6 @@
 ---
 name: maximus-k3-self-hosting
-description: Plan and execute a self-hosted Kimi K3 deployment on your own GPUs. Load when the user wants to run K3 outside the platform.kimi.ai hosted API — sizing hardware, choosing vLLM vs SGLang vs TokenSpeed, deploying with native MXFP4 weights and MXFP8 activations, configuring the OpenAI/Anthropic-compatible endpoint, tuning preserved-thinking mode across turns, or deciding whether self-hosting is worth it versus the hosted API. Covers the 2.8T-parameter / 104B-active MoE architecture with 1M-token context and quantization-aware-trained MXFP4 weights. Enforces license review before commercial deployment (Kimi K3 License is source-available, not Apache/MIT). Never invents hardware requirements not published by Moonshot AI or the inference engines. Does not cover model selection versus other frontier models — use maximus-k3-model-selection for that. Every recommendation cites the inference-engine recipe URL and names the exact hardware assumption behind any latency or throughput claim.
+description: "Plan a self-hosted Kimi K3 deployment on your own GPUs: hardware sizing, vLLM vs SGLang, MXFP4 weights, compatible endpoint, preserved-thinking tuning, license review, and self-host vs hosted-API economics. Use for 'self-host K3', 'run K3 on our GPUs', 'K3 hardware'."
 ---
 
 # WHEN TO USE

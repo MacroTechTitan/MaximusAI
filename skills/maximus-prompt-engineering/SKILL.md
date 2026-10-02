@@ -1,6 +1,6 @@
 ---
 name: maximus-prompt-engineering
-description: "Production prompt engineering: write system prompts, few-shot examples, and JSON schema constraints that hold under adversarial input. Use when the user says 'write a prompt', 'improve this prompt', 'make the model output JSON', 'add guardrails', 'test my prompt', 'prompt injection', 'few-shot examples', or any task that requires crafting or auditing an LLM instruction set. Covers Python and TypeScript."
+description: "Production prompts that hold under adversarial input: system prompts, few-shot examples, JSON schema constraints, injection resistance, prompt tests (Python/TypeScript). Use for 'write a prompt', 'improve this prompt', 'make the model output JSON', 'add guardrails', 'few-shot examples'."
 metadata:
   pillar: ai-engineering
   source: maximus

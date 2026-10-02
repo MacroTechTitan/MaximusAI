@@ -1,6 +1,6 @@
 ---
 name: maximus-fintech-payments
-description: "Build payment, billing, and fintech features with PCI awareness and production-grade safety. Use when integrating Stripe (Checkout, Connect, Billing, webhooks), implementing payouts, subscriptions, invoicing, refunds, or any money-handling code; when the user mentions payments, charges, payouts, PCI, KYC, AML, idempotency, webhooks, audit log, or compliance. Enforces idempotency keys, integer minor units, webhook signature verification, immutable audit logs, test-mode verification before live, and least-privilege key handling. Skip for non-financial CRUD."
+description: "Build payment and billing code safely: Stripe Checkout/Connect/Billing, webhooks, payouts, subscriptions, refunds, with idempotency keys, integer minor units, signature verification, audit logs, and test-mode first. Use for 'payments', 'Stripe', 'payouts', 'webhooks', 'PCI', 'KYC'."
 metadata:
   pillar: build
   source: maximus

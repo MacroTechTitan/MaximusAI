@@ -1,6 +1,6 @@
 ---
 name: maximus-brain
-description: "The cognitive operating system for the Maximus suite. Use on any non-trivial task — work involving multi-step reasoning, code, money, deploys, irreversible action, or decisions that depend on prior context. Installs a think-before-act loop, memory hygiene, skill selection, self-critique, and depth-adaptive cognition. Triggers automatically when the user says 'think hard', 'be careful', 'use your brain', 'this matters', 'check your work', 'don't hallucinate', or starts any meaningful build/research/decision task. Skip only for chitchat, trivial lookups, and one-line answers."
+description: "Think-before-act operating loop for any non-trivial task: framing, memory recall, skill selection, self-critique, depth-adaptive effort. Use for multi-step, code, money, deploy, or irreversible work, and for 'think hard', 'be careful', 'check your work', 'don't hallucinate'. Skip for chitchat and one-line lookups."
 metadata:
   pillar: meta
   source: maximus

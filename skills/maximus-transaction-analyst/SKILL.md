@@ -1,6 +1,6 @@
 ---
 name: maximus-transaction-analyst
-description: "Analyze dense email threads, PDFs, forwarded correspondence, term sheets, closing documents, and transaction attachments to produce a concise two-page executive transaction summary. Use when the user asks Maximus, Perplexity Computer, or ChatGPT to understand what is happening in a private-company secondary, financing, M&A, brokerage, SPV/trust, or similar transaction from a large set of source materials. Reconstruct chronology, parties, economics, structure, closing issues, disputes, and current status while grounding every conclusion in the supplied materials and clearly distinguishing allegations, facts, and unresolved items. Prefer executed/latest closing evidence over early indications. Never fills factual gaps with outside knowledge unless the user explicitly asks."
+description: "Turn dense deal email threads, PDFs, term sheets, and closing documents into a two-page executive transaction summary: chronology, parties, economics, structure, disputes, status, grounded only in the materials. Use for private secondaries, financings, M&A, SPVs: 'what is happening in this deal', 'summarize this transaction'."
 ---
 
 # Maximus Transaction Analyst

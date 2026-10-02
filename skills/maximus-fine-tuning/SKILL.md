@@ -1,6 +1,6 @@
 ---
 name: maximus-fine-tuning
-description: "When to fine-tune vs RAG vs prompt engineering, and how to do it right. Covers the decision tree, dataset prep, full fine-tuning, LoRA, QLoRA, instruction tuning, DPO/preference tuning, hosting options (OpenAI/Anthropic FT APIs, HuggingFace, Together, Replicate), eval before promotion, and cost math. Use when deciding how to specialize a model for a task, or when implementing a fine-tune. Trigger phrases: 'fine-tune a model', 'LoRA', 'QLoRA', 'when to fine-tune', 'fine-tune vs RAG', 'DPO', 'instruction tuning', 'PEFT', 'OpenAI fine-tuning API', 'custom model training'."
+description: "Decide fine-tune vs RAG vs prompting, then do it right: dataset prep, full/LoRA/QLoRA, instruction and DPO tuning, hosted FT APIs, eval before promotion, cost math. Use for 'fine-tune a model', 'fine-tune vs RAG', 'LoRA', 'DPO', 'OpenAI fine-tuning API'. On your own hardware: maximus-slm-local-finetune."
 metadata:
   pillar: ai-engineering
   source: maximus

@@ -1,6 +1,6 @@
 ---
 name: maximus-debug-incident
-description: "Systematic debugging and SRE-style incident response. Use when something is broken, a test is failing, an error is being thrown, production is degraded, the user says 'it's not working', 'help me debug', 'why is X happening', 'we have an incident', 'production is down', or when an alert has fired. Follows reproduce \u2192 isolate \u2192 hypothesize \u2192 fix \u2192 add regression test, with incident-mode adjustments (mitigate first, fix second, postmortem third). Covers application bugs, build/CI failures, and production outages."
+description: "Systematic debugging and incident response: reproduce, isolate, hypothesize, fix, add a regression test; in incidents, mitigate first and write the postmortem after. Use for 'it's not working', 'help me debug', 'failing test', 'why is X happening', 'production is down', or a fired alert."
 metadata:
   pillar: inspection
   source: maximus

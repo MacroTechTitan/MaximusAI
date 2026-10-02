@@ -1,6 +1,6 @@
 ---
 name: maximus-build-feature
-description: "Execute a feature implementation with read-before-edit, minimum-change discipline. Use when implementing a feature in an existing codebase, applying an approved implementation plan, or any time the user says 'build this', 'implement', 'ship the feature', 'add X to the repo'. Encodes the workhorse rule: read the file before editing, change the minimum, preserve unrelated code, run tests after every meaningful step, and never blind-overwrite. Works for Python, JavaScript/TypeScript, Go, and similar languages."
+description: "Implement a feature in an existing codebase with read-before-edit, minimum-change discipline: preserve unrelated code, test after each step, never blind-overwrite. Use for 'build this', 'implement', 'ship the feature', 'add X to the repo', or applying an approved plan."
 metadata:
   pillar: build
   source: maximus

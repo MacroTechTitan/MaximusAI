@@ -1,6 +1,6 @@
 ---
 name: maximus-python-scientific
-description: "Build reproducible Python pipelines for scientific computing, ML, and data analysis. Use when writing code that produces results others must reproduce, when the user mentions science, research, paper, journal, experiment, reproducibility, DVC, MLflow, Jupyter-to-production, or when building a data pipeline that will run more than once. Enforces pinned dependencies, fixed seeds, versioned data, config files instead of hard-coded params, CI verification, and Docker/Binder packaging. Covers Python with NumPy, pandas, scikit-learn, PyTorch, and TensorFlow."
+description: "Reproducible Python for science, ML, and data analysis: pinned deps, fixed seeds, versioned data (DVC), config files, MLflow, CI checks, Docker/Binder. Use for 'reproducible', 'experiment', 'research code', 'paper results', 'Jupyter to production', or pipelines that will run more than once."
 metadata:
   pillar: build
   source: maximus

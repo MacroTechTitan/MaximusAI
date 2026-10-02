@@ -1,6 +1,6 @@
 ---
 name: maximus-devops-ship
-description: "Ship code to production safely: CI/CD pipelines, Infrastructure as Code, progressive delivery, observability, SLOs, and rollback. Use when the user asks to 'deploy', 'set up CI/CD', 'ship to production', 'add monitoring', 'write a GitHub Action', 'add Terraform', 'set up canary', or when promoting a service from dev to prod. Covers GitHub Actions, Terraform / AWS CDK, Docker, Kubernetes, Vercel, and observability with Prometheus / Grafana / OpenTelemetry. Enforces IaC, progressive delivery, working rollback, SLOs with error budgets, and runbooks per alert."
+description: "Ship to production safely: CI/CD, IaC (Terraform/CDK), Docker/Kubernetes/Vercel, progressive delivery, observability, SLOs with error budgets, working rollback, runbooks. Use for 'deploy', 'set up CI/CD', 'GitHub Action', 'add Terraform', 'set up canary', 'add monitoring'."
 metadata:
   pillar: deployment
   source: maximus

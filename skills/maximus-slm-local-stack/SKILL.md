@@ -1,6 +1,6 @@
 ---
 name: maximus-slm-local-stack
-description: "Choose and deploy a small language model (roughly 1B-14B) on hardware you own, for local, private, or offline work. Covers the hardware-tier to model to quantization to runtime decision, explicit VRAM math including KV cache, GGUF quantization tradeoffs, runtime selection (Ollama, LM Studio, llama.cpp, MLX, vLLM), air-gapped install, and benchmarking your own box instead of trusting published tokens/sec. Use when the user says 'run a model locally', 'which SLM', 'small language model', 'offline LLM', 'Ollama', 'LM Studio', 'llama.cpp', 'GGUF', 'quantization', 'how much VRAM', 'will this fit on my GPU', 'air-gapped', or 'no cloud API'. For building a research or learning application on top of the stack, use maximus-local-research-assistant. For datacenter-scale self-hosting, use maximus-k3-self-hosting."
+description: "Choose and run a small model (about 1B-14B) on your own hardware: hardware to model to quant to runtime, VRAM math including KV cache, GGUF tradeoffs, Ollama/LM Studio/llama.cpp/MLX/vLLM, air-gapped install. Use for 'run a model locally', 'which SLM', 'how much VRAM', 'GGUF', 'quantization', 'offline LLM'."
 metadata: { "openclaw": { "emoji": "🖲️", "pillar": "ai-engineering", "source": "maximus" } }
 ---
 
@@ -177,6 +177,10 @@ know the ceiling stop blaming the prompt.
 
 ## Anti-patterns
 
+- **Sizing for a context the runtime never uses.** Ollama's default context
+  can be as low as 4,096, and `num_ctx` sent over its OpenAI-compatible API is
+  discarded. Set it in a Modelfile or with `OLLAMA_CONTEXT_LENGTH`, then
+  confirm with `ollama ps`. See `maximus-ollama-ops`.
 - **Sizing for weights and ignoring the KV cache.** The single most common
   planning error. See step 2.
 - **Quantizing to 2-bit to fit a bigger model.** A well-quantized smaller

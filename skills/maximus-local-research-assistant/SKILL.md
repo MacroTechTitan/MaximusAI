@@ -1,6 +1,6 @@
 ---
 name: maximus-local-research-assistant
-description: "Build a trustworthy research or learning assistant on top of a small local model (roughly 1B-14B). Covers local RAG with local embeddings, refuse-when-unretrieved grounding, span-level citation, task decomposition that keeps an SLM inside its competence, a verification pass to compensate for higher hallucination rates, and study tooling (quiz and flashcard generation, concept explanation) grounded in your own corpus. Use when the user says 'local research assistant', 'offline RAG', 'chat with my documents privately', 'study assistant', 'learning app with a local model', 'private knowledge base', 'no data leaves my machine', or 'small model keeps making things up'. For choosing hardware, model, quantization, and runtime, use maximus-slm-local-stack first."
+description: "Build a trustworthy research or study assistant on a small local model: local RAG and embeddings, refuse-when-unretrieved grounding, span citations, task decomposition, a verification pass, quizzes and flashcards. Use for 'offline RAG', 'chat with my documents privately', 'study assistant', 'small model keeps making things up'."
 metadata: { "openclaw": { "emoji": "📚", "pillar": "ai-engineering", "source": "maximus" } }
 ---
 

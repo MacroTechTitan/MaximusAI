@@ -1,6 +1,6 @@
 ---
 name: maximus-deep-research-pro
-description: "Inference-driven deep research that goes beyond aggregation: it reasons across sources to derive conclusions no single source states, actively tries to falsify its own hypothesis before confirming it, and tracks confidence and disagreement explicitly. Use for 'deep research pro', 'research and reason', 'go beyond search', 'infer from sources', 'hypothesis-driven research', 'falsify this claim', 'what does the evidence actually say', 'adversarial research', 'reasoning trace', 'cross-source inference', 'due diligence', 'investigate this'. Runs an 8-step inference loop with a confidence ledger and adversarial verification pass. WHEN NOT TO USE: single-question lookups (just search), aggregation-only synthesis with no inference required (use maximus-deep-research), or tasks needing only plain web search (use built-in research-assistant)."
+description: "Hypothesis-driven research that reasons across sources to conclusions none state alone, tries to falsify its own thesis, and tracks confidence and disagreement. Use for 'deep research pro', 'falsify this claim', 'what does the evidence actually say', 'due diligence', 'infer from sources'. Plain aggregation: maximus-deep-research."
 metadata:
   pillar: research
   source: maximus

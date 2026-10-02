@@ -1,6 +1,6 @@
 ---
 name: maximus-ai-product-spec
-description: "Spec an AI feature like a product, not a demo. Use when designing an AI-powered feature end-to-end: user-visible behavior, expected outputs, refusal and failure modes, eval rubric, staged rollout (off → internal → 5% → 100%), kill switch, and success metrics. Trigger phrases: 'spec an AI feature', 'write a product spec for', 'define AI behavior', 'plan rollout for AI', 'AI acceptance criteria', 'define success metrics for AI', 'how do we know the model is working'."
+description: "Spec an AI feature like a product: user-visible behavior, refusal and failure modes, eval rubric, staged rollout, kill switch, success metrics. Use for 'spec an AI feature', 'define AI behavior', 'AI acceptance criteria', 'plan rollout for AI', 'how do we know the model is working'."
 metadata:
   pillar: ai-engineering
   source: maximus

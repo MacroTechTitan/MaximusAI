@@ -1,6 +1,6 @@
 ---
 name: maximus-investigative-research
-description: Investigative research the way a working journalist or intelligence analyst does it — not the way a search engine does it. Load when the user says "investigate," "dig into," "find out what happened with," "research this like a reporter would," "who is really behind X," "what's the story with Y," "trace this back," "connect the dots," or wants a report shaped by leads, sources, timelines, and corroboration rather than a topic summary. Runs a 6-phase human-analyst loop — Lead intake → Source mapping (primary/secondary/adversarial) → Timeline construction → Contradiction hunt → Corroboration pass → Report with confidence tags. Distinguishes single-sourced from multi-sourced claims. Names what is not known. Surfaces contradictions instead of averaging them away. Distinct from maximus-deep-research (aggregation) and maximus-deep-research-pro (hypothesis testing) — this skill produces a story with a spine, not a synthesis.
+description: "Investigate like a reporter: leads, primary/secondary/adversarial sources, timeline, contradiction hunt, corroboration, and a report with confidence tags that names what is unknown. Use for 'investigate', 'dig into', 'who is really behind X', 'what happened with', 'trace this back', 'connect the dots'."
 ---
 
 # WHEN TO USE

@@ -1,6 +1,6 @@
 ---
 name: maximus-agent-design
-description: "Multi-step AI agent design: tool definitions, loop control, memory architecture (short and long term), recovery from tool failures, and the 3-tier eval (PR regression / nightly LLM-judge / prod canary). Use when the user says 'build an agent', 'autonomous task', 'tool-calling loop', 'LLM with tools', 'memory for the AI', 'the agent keeps looping', 'agent hallucinates a tool', 'agent loses context', or any task involving an LLM that calls external tools or runs multi-step. Covers common failure modes: hallucinated tools, runaway loops, lost context, recursive sub-tasks."
+description: "Design multi-step tool-using agents: tool definitions, loop control, memory, recovery from tool failures, and the 3-tier eval. Use for 'build an agent', 'tool-calling loop', 'LLM with tools', 'agent keeps looping', 'agent hallucinates a tool', 'agent loses context'."
 metadata:
   pillar: ai-engineering
   source: maximus

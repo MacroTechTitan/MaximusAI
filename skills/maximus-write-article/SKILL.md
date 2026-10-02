@@ -1,6 +1,6 @@
 ---
 name: maximus-write-article
-description: "Write production-grade long-form articles: thought leadership essays and technical/build-in-public writeups. Use when the user says 'write an article', 'blog post', 'thought leadership', 'build in public post', 'technical writeup', 'newsletter post', or asks for a long-form piece (500+ words) meant to be published under their name. Also use for tightening a bloated draft, fact-checking claims, generating headlines/hooks, or repurposing to social/newsletter. Encodes outline-before-draft, tighten-before-ship, fact-check-before-publish discipline so the output reads like a person thought it, not like a model summarized a topic. Do NOT use for short-form copy (use marketing/content-creation), pure docs (use office/docx), internal specs (use pm/feature-spec or maximus-design-spec), or summarization tasks."
+description: "Write long-form articles under the user's name, thought leadership or build-in-public, with outline, tighten, and fact-check passes. Use for 'write an article', 'blog post', 'technical writeup', 'newsletter post', tightening a draft, or headlines. Not for short-form copy or specs."
 metadata:
   pillar: content
   source: maximus

@@ -1,6 +1,6 @@
 ---
 name: maximus-plan-implementation
-description: "Break an approved design or feature request into a concrete, minimum-change implementation plan before writing any code. Use when starting a feature build, when the user says 'plan this out', 'before you code', 'what's the approach', or after a design spec is approved and the work needs to be scheduled. Produces an ordered task list with file-level edits, dependency notes, verification steps, and rollback plan. Skip for trivial one-file changes."
+description: "Turn an approved design or request into a minimum-change implementation plan before coding: ordered tasks, file-level edits, dependencies, verification steps, rollback. Use for 'plan this out', 'before you code', 'what's the approach'. Skip for trivial one-file changes."
 metadata:
   pillar: planning
   source: maximus
