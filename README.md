@@ -130,6 +130,8 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 
 **Total: 57 skills** — 43 core, 14 in opt-in packs.
 
+**Incubator (experimental, opt-in, not counted)** — see [`packs/incubator/`](./packs/incubator). Up to two machine-drafted skills per weekday from what's trending, auto-merged into the incubator only, following [`SCOUT.md`](./packs/incubator/SCOUT.md). Nothing reaches core without a human-reviewed promotion PR.
+
 **Running on a local model?** Read [`maximus-openclaw-local`](./skills/maximus-openclaw-local) first. Maximus injects about 8,000 tokens per run, and Ollama's default context on most consumer machines is 4,096, so the prompt gets silently truncated unless you set the context explicitly.
 
 ### Homepage sync
