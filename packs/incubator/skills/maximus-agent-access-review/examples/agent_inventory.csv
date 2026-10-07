@@ -1,0 +1,6 @@
+identity,type,owner,credential,inherits_user,expires_days,shell,data_read,net_egress,prod_write,environment
+claude-code-laptop-ana,coding-agent,ana,user-oauth,yes,,yes,yes,yes,no,dev
+deploy-bot,automation,platform-team,service-account,no,30,yes,no,yes,yes,ci
+crm-summarizer-mcp,mcp-server,,api-token,no,,no,yes,yes,no,saas
+calendar-assistant,oauth-app,ben,user-oauth,yes,90,no,yes,no,no,saas
+nightly-report-agent,automation,data-team,scoped-token,no,1,no,yes,no,no,prod
