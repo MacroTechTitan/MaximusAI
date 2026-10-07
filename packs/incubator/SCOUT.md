@@ -95,9 +95,9 @@ secret patterns.
 3. Confirm every changed path is under `packs/incubator/`, then squash-merge
    and delete the branch. If any path is outside, leave the PR open.
 
-## Step 7 — Friday digest
+## Step 7 — Weekly digest
 
-On Fridays, after shipping, open one PR (not auto-merged) proposing:
+Each weekly run, after shipping, open one PR (not auto-merged) proposing:
 
 - the week's incubator skills as a short "Incubator" section for
   `docs/lovable-homepage-prompt.md` and the README catalog, and
