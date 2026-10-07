@@ -34,4 +34,5 @@ Newest first. The scout appends one row per skill it ships.
 
 | Date | Skill | Trend signal | Sources | Status |
 |---|---|---|---|---|
+| 2026-10-07 | `maximus-agent-access-review` | Agents keep access after tasks end; Wikimedia agent incident Oct 5 | [Help Net Security](https://www.helpnetsecurity.com/2026/10/02/delinea-ai-policy-adoption-enforcement-report/), [Wikimedia](https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/), [Eon](https://www.eon.io/blog/least-privilege-ai-agents) | incubating |
 | 2026-10-07 | `maximus-mcp-stateless-migration` | MCP spec 2026-07-28 removed sessions; migration and test guides Sep 28-29 | [MCP blog](https://blog.modelcontextprotocol.io/posts/2026-07-28/), [computingforgeeks](https://computingforgeeks.com/migrate-mcp-server-stateless/), [TestMu](https://www.testmuai.com/blog/stateless-mcp-migration-testing/) | incubating |
