@@ -34,3 +34,4 @@ Newest first. The scout appends one row per skill it ships.
 
 | Date | Skill | Trend signal | Sources | Status |
 |---|---|---|---|---|
+| 2026-10-07 | `maximus-mcp-stateless-migration` | MCP spec 2026-07-28 removed sessions; migration and test guides Sep 28-29 | [MCP blog](https://blog.modelcontextprotocol.io/posts/2026-07-28/), [computingforgeeks](https://computingforgeeks.com/migrate-mcp-server-stateless/), [TestMu](https://www.testmuai.com/blog/stateless-mcp-migration-testing/) | incubating |
