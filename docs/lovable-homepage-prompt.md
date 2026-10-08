@@ -6,7 +6,7 @@ its blocks into Lovable.
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
 **Total skills:** 57 across 4 pillars + 4 opt-in packs (43 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`, 5 in `packs/film/`, 1 in `packs/privsec/`)
-**Last updated:** 2026-09-30
+**Last updated:** 2026-10-06
 
 ## How to use this file
 
@@ -396,7 +396,7 @@ Newest first. The blocks above always reflect the newest row.
 
 | Date | Total | Change | Pasted to site |
 |---|---|---|---|
-| 2026-09-30 | 57 | Five local-model skills (Pillar 3 → 22); Private Securities Pack counted (+1); AI SEO reframed as a pack (4 pillars, 4 packs); all descriptions trimmed; blog post #9 | pending |
+| 2026-09-30 | 57 | Five local-model skills (Pillar 3 → 22); Private Securities Pack counted (+1); AI SEO reframed as a pack (4 pillars, 4 packs); all descriptions trimmed; blog post #9 | yes — confirmed 2026-10-06 (raw HTML: headline 57, 57 skill cards, 9 posts) |
 | 2026-09-22 | 51 | `maximus-slm-local-stack` + `maximus-local-research-assistant` (Pillar 3 → 17), blog post #8 | yes — confirmed 2026-09-30 (headline miscounted as 55) |
 | 2026-09-20 | 49 | Film Pack (5 skills, opt-in), blog post #7 | yes — confirmed 2026-09-30 |
 | 2026-09-15 | 44 | `mtt-claude-cursor` (Dev Workflow Pack), blog post #6 | yes — confirmed 2026-09-30 |
@@ -405,6 +405,8 @@ Newest first. The blocks above always reflect the newest row.
 | 2026-07-29 | 39 | Two Kimi K3 skills | yes |
 | 2026-07-23 | 37 | `maximus-contact-intelligence` | yes |
 | 2026-07-20 | 36 | Launch | yes |
+
+**Site state as of 2026-10-06 (raw HTML):** headline "57 skills. 4 pillars. 4 packs. One workhorse.", title/OG at 57, all 57 skill names present including the five local-model skills, `/blog` lists all nine posts, post routes return 200. NEW badges could not be confirmed from raw HTML; check visually.
 
 **Site state as of 2026-09-30 (raw HTML):** all 51 skills from the 2026-09-22
 release, the correct two NEW badges, all four packs, and all eight posts. One
