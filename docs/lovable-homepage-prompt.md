@@ -6,7 +6,7 @@ its blocks into Lovable.
 **Live site:** [maximus.macrotechtitan.com](https://maximus.macrotechtitan.com) (Lovable-managed)
 **Repo source of truth:** [MacroTechTitan/MaximusAI](https://github.com/MacroTechTitan/MaximusAI)
 **Total skills:** 57 across 4 pillars + 4 opt-in packs (43 in `skills/`, 7 in `packs/ai-seo/`, 1 in `packs/devops/`, 5 in `packs/film/`, 1 in `packs/privsec/`)
-**Last updated:** 2026-10-06
+**Last updated:** 2026-10-08
 
 ## How to use this file
 
@@ -219,6 +219,23 @@ own — the human approves every message."
   public funding data, enrich contacts through a connected provider, log them to
   a store you choose, and queue personalized outreach for approval.
 
+## Incubator note (experimental, not counted)
+
+Directly below the Private Securities Pack, add a single short text note. This
+is NOT a fifth pack: no card grid, no skill cards, no NEW badge, no count. Use
+the existing muted body-text style, visually quieter than the pack sections.
+
+Heading: "Incubator — experimental"
+Text: "Machine-drafted skills from a weekday scout that tracks what is trending
+in engineering, AI, and research. Off by default and not counted in the 57.
+Treat them as drafts: nothing reaches the core suite without a human-reviewed
+promotion PR."
+Link: "Browse the incubator" →
+https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/incubator
+
+Do not list individual incubator skills on the page. They change every weekday
+and are retired after 60 days if not promoted.
+
 ## Card links
 
 - Core skills: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
@@ -381,6 +398,8 @@ contrast and keyboard navigation.
 3. Exactly five NEW badges on the whole page.
 4. All four pack sections use the same opt-in styling, not a new design.
 5. `/blog` lists nine posts and every post route renders.
+6. The incubator appears only as a short text note below the Private
+   Securities Pack, with no skill cards, and every count still reads 57.
 
 Check the raw HTML, not only a fetch or preview service. On 2026-09-30 a fetch
 service returned a stale 42-skill copy while the live HTML was already current.
@@ -396,6 +415,7 @@ Newest first. The blocks above always reflect the newest row.
 
 | Date | Total | Change | Pasted to site |
 |---|---|---|---|
+| 2026-10-08 | 57 | Incubator note added below the packs (experimental, not counted, no cards); verify check #6 | pending |
 | 2026-09-30 | 57 | Five local-model skills (Pillar 3 → 22); Private Securities Pack counted (+1); AI SEO reframed as a pack (4 pillars, 4 packs); all descriptions trimmed; blog post #9 | yes — confirmed 2026-10-06 (raw HTML: headline 57, 57 skill cards, 9 posts) |
 | 2026-09-22 | 51 | `maximus-slm-local-stack` + `maximus-local-research-assistant` (Pillar 3 → 17), blog post #8 | yes — confirmed 2026-09-30 (headline miscounted as 55) |
 | 2026-09-20 | 49 | Film Pack (5 skills, opt-in), blog post #7 | yes — confirmed 2026-09-30 |
@@ -431,5 +451,5 @@ than trusting this table.
 7. If the skill lives in a pack, update that pack's README under `## Skills`
    with the one-line `ln -sfn` enable command.
 8. Add the post to `blog/` and to the README blog index.
-9. Paste both blocks into Lovable, verify against the five checks above, then set
+9. Paste both blocks into Lovable, verify against the six checks above, then set
    the changelog row to the paste date.
