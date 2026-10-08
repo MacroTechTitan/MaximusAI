@@ -219,6 +219,27 @@ own — the human approves every message."
   public funding data, enrich contacts through a connected provider, log them to
   a store you choose, and queue personalized outreach for approval.
 
+## Incubator (2 skills, experimental, not counted)
+
+Directly below the Private Securities Pack. Same pack styling, plus a small
+"Experimental" tag on the section header. Do not add these to the headline
+count or the NEW badges.
+
+Headline: "Incubator — experimental"
+Subhead: "Drafted weekly by the Maximus skill scout from what's trending in AI.
+Sourced and validated, but not yet human-reviewed. The good ones get promoted
+to core; the rest are retired after 60 days."
+
+- maximus-mcp-stateless-migration — Move an MCP server to the 2026-07-28
+  stateless spec without breaking legacy clients: discovery, handles instead of
+  sessions, MRTR, cache fields, and a two-era regression matrix.
+- maximus-agent-access-review — Inventory what AI agents, coding tools, and MCP
+  servers can reach, rank the riskiest grants, cut them down, and prove
+  revocation and recovery work.
+
+Card links for incubator skills:
+https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/incubator/skills/<skill-name>
+
 ## Card links
 
 - Core skills: https://github.com/MacroTechTitan/MaximusAI/tree/main/skills/<skill-name>
