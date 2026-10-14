@@ -95,12 +95,14 @@ secret patterns.
 3. Confirm every changed path is under `packs/incubator/`, then squash-merge
    and delete the branch. If any path is outside, leave the PR open.
 
-## Step 7 — Friday digest
+## Step 7 — Weekly digest
 
-On Fridays, after shipping, open one PR (not auto-merged) proposing:
+Each weekly run, after shipping, open one PR (not auto-merged) proposing:
 
-- the week's incubator skills as a short "Incubator" section for
-  `docs/lovable-homepage-prompt.md` and the README catalog, and
+- the week's incubator skills in the README catalog table. The homepage
+  (`docs/lovable-homepage-prompt.md`) keeps only the short "Incubator note":
+  never list individual incubator skills, cards, badges, or counts there
+  (owner decision, PR #30). Only fix stale wording in that note, and
 - a promotion shortlist (at most 2) with reasons, plus any retirement
   candidates older than 60 days.
 
@@ -108,3 +110,6 @@ On Fridays, after shipping, open one PR (not auto-merged) proposing:
 
 End every run with: candidates considered (one line each, with score), skills
 shipped (with PR links), skills rejected and why, and any limit that was hit.
+
+If last week's digest PR is still open, close it with a comment pointing to
+the new one, so only one digest is ever open.

@@ -226,14 +226,14 @@ is NOT a fifth pack: no card grid, no skill cards, no NEW badge, no count. Use
 the existing muted body-text style, visually quieter than the pack sections.
 
 Heading: "Incubator — experimental"
-Text: "Machine-drafted skills from a weekday scout that tracks what is trending
-in engineering, AI, and research. Off by default and not counted in the 57.
+Text: "Machine-drafted skills from a weekly scout that tracks what is trending
+in AI. Off by default and not counted in the 57.
 Treat them as drafts: nothing reaches the core suite without a human-reviewed
 promotion PR."
 Link: "Browse the incubator" →
 https://github.com/MacroTechTitan/MaximusAI/tree/main/packs/incubator
 
-Do not list individual incubator skills on the page. They change every weekday
+Do not list individual incubator skills on the page. They change weekly
 and are retired after 60 days if not promoted.
 
 ## Card links
