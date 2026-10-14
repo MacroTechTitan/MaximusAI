@@ -1,0 +1,13 @@
+id,label,predicted,confidence
+1,billing,billing,0.93
+2,bug,bug,0.88
+3,account,bug,0.41
+4,billing,billing,0.77
+5,bug,bug,0.95
+6,account,account,0.62
+7,billing,account,0.35
+8,bug,bug,0.81
+9,account,account,0.90
+10,billing,billing,0.58
+11,bug,billing,0.52
+12,account,account,0.71
