@@ -1,0 +1,7 @@
+# ILLUSTRATIVE .npmrc for repos where agents run installs. Not applied by the scout.
+# Install hooks off by default; enable per package only when a build needs them.
+ignore-scripts=true
+# Only install versions published more than 7 days ago.
+min-release-age=7
+# Exempt internal packages and urgent fixes by name (comma-separated patterns).
+# min-release-age-exclude=@yourorg/*
