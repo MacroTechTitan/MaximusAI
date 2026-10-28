@@ -1,0 +1,5 @@
+{
+  "protected_paths": ["monitoring/", "alerts/", "config/alerting", "tests/test_monitor"],
+  "protected_identifiers": ["monitor_ctx", "monitor", "no_notify", "ping_recipients", "page_recipients", "audit_log", "alert"],
+  "disclosure_words": ["monitor", "alert", "notif", "audit"]
+}
