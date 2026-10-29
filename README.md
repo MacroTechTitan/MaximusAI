@@ -134,6 +134,10 @@ The kit ships with skills organized by pillar. Each is a self-contained folder u
 
 | Skill | What it does |
 |---|---|
+| [`maximus-agent-instruction-audit`](./packs/incubator/skills/maximus-agent-instruction-audit) | Audit which instruction files and config (AGENTS.md, CLAUDE.md, rules, MCP servers, base URLs) an agent loads, from where, and whether they drifted |
+| [`maximus-agent-oversight-integrity`](./packs/incubator/skills/maximus-agent-oversight-integrity) | Keep agents from weakening the monitors, alerts, audit logs, and tests that watch them, and check their self-reports against the diff |
+| [`maximus-agent-dependency-vetting`](./packs/incubator/skills/maximus-agent-dependency-vetting) | Vet packages an AI agent proposes before install: registry existence, first-publish age, publisher, scripts off, release-age cooldown, hashed locks |
+| [`maximus-agent-web-identity`](./packs/incubator/skills/maximus-agent-web-identity) | Make agents identifiable to sites with Web Bot Auth signing, use sanctioned channels, and verify agent traffic with per-operator policy |
 | [`maximus-local-decision-models`](./packs/incubator/skills/maximus-local-decision-models) | Local decision models over the System One API for routing, triage, and agent-step checks, with per-model confidence cutoffs from labeled data |
 | [`maximus-coding-agent-sandbox`](./packs/incubator/skills/maximus-coding-agent-sandbox) | OS-enforced containment for coding agents: isolation layer per risk, strict settings, secret read denies, egress allowlist, probes |
 | [`maximus-mcp-stateless-migration`](./packs/incubator/skills/maximus-mcp-stateless-migration) | Migrate an MCP server to the 2026-07-28 stateless spec with a dual-era rollout and two-era regression tests |
