@@ -1,0 +1,6 @@
+[
+  {"id": "tracked-marker", "wording": "prescriptive", "file_regex": "\\.py$",
+   "trigger": "^\\s*def\\s", "next_line": "#\\s*@tracked"},
+  {"id": "no-print-debugging", "wording": "prescriptive", "file_regex": "\\.py$",
+   "forbid": "^\\s*print\\("}
+]
