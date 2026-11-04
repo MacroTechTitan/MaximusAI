@@ -1,0 +1,5 @@
+[
+  {"name": "fix-upload", "files": ["src/upload/*", "tests/test_upload*.py"]},
+  {"name": "bump-sdk", "files": ["requirements.txt", "src/client/*"]},
+  {"name": "docs-cli", "files": ["docs/*"]}
+]
